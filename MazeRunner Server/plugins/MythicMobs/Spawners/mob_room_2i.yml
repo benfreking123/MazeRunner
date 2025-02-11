@@ -1,0 +1,12 @@
+mob_room_2i:
+  MobName: RunnerInner
+  World: world
+  X: 22
+  Y: 64
+  Z: -225
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '10'
+  ActiveMobs: 1
+  Cooldown: 0
+  Warmup: 0

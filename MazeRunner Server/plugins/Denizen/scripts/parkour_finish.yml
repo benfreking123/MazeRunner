@@ -1,0 +1,18 @@
+ParkourFinishRegion:
+  # This defines a Denizen "cuboid" region
+  type: cuboid
+
+  # Replace the coordinates here with two opposite corners of your desired region
+  # Format: "world,x,y,z" for each corner
+  definition:
+  - location1: "world,10,64,10"
+  - location2: "world,20,70,20"
+
+ParkourFinishScript:
+  # This is our script that detects when a player enters the region
+  type: world
+  events:
+    on player enters region:ParkourFinishRegion:
+      - narrate "You have completed the Parkour!"
+      # Run a console command, for example giving the player a diamond
+      - execute as_server "give <player.name> minecraft:diamond 1"

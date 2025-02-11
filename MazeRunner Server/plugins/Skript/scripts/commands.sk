@@ -1,0 +1,12 @@
+on rightclick holding a feather:
+	execute player command "//copy"
+	execute command "/say //copy"
+on rightclick holding a emerald:
+	execute player command "//expand 86 down"
+	execute command "/say //expand 86 down"
+on rightclick holding a honeycomb:
+	execute player command "//paste"
+	execute command "/say //paste"
+on rightclick holding a slimeball:
+	execute player command "//rotate 90"
+	execute command "/say //rotate 90"

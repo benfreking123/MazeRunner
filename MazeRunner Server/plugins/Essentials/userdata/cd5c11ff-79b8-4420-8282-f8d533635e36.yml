@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739265084209
+  login: 1739264496892
+money: '118105.63'
+last-account-name: Bishop4302
+logoutlocation:
+  world: 73aa93cb-58ed-4e14-b40d-b87898d40581
+  world-name: world
+  x: 44.93561620122937
+  y: 198.455523438431
+  z: -333.6871405541071
+  yaw: -74.57078552246094
+  pitch: 19.349628448486328
+lastlocation:
+  world: 73aa93cb-58ed-4e14-b40d-b87898d40581
+  world-name: world
+  x: 155.0725243682172
+  y: 65.0
+  z: -307.64124302682416
+  yaw: 12.21197509765625
+  pitch: 27.30038070678711

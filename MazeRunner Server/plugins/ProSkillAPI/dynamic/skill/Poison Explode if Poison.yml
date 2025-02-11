@@ -1,0 +1,77 @@
+'Poison Explode if Poison': 
+  name: 'Poison Explode if Poison'
+  type: 'Dynamic'
+  'max-level': 5
+  'skill-req-lvl': 0
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '0'
+    'cooldown-base': '0'
+    'cooldown-scale': '0'
+    'mana-base': '0'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'PUMPKIN'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Physical Damage': 
+      type: 'trigger'
+      data: 
+        mana: 'false'
+        cooldown: 'false'
+        target: 'false'
+        type: 'Both'
+        'dmg-min': '0'
+        'dmg-max': '999'
+      preview: 
+        enabled: 'false'
+      children: 
+        Potion: 
+          type: 'condition'
+          data: 
+            'icon-key': ''
+            type: 'Active'
+            potion: 'Poison'
+            'min-rank-base': '0'
+            'min-rank-scale': '0'
+            'max-rank-base': '999'
+            'max-rank-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: 
+            Area: 
+              type: 'target'
+              data: 
+                'icon-key': ''
+                'radius-base': '3'
+                'radius-scale': '0'
+                group: 'Enemy'
+                wall: 'false'
+                invulnerable: 'false'
+                caster: 'False'
+                'max-base': '99'
+                'max-scale': '0'
+                random: 'false'
+              preview: 
+                enabled: 'false'
+                'per-target': 'false'
+                circle: 'false'
+                sphere: 'false'
+              children: {}

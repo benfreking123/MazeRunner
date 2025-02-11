@@ -1,0 +1,32 @@
+conversations:
+  Jack: 
+    quester: "Jack" 
+    first: "innerQuest4,innerQuest3,innerQuest2,innerQuest1,firstGreeting" 
+    NPC_options: 
+      firstGreeting:
+        text: "Hello and welcome to my town traveler! Nice to see you. Where are you from?"
+        events: "startStarterQuest,tagStarterQuest"
+        conditions: "!hasStarterQuest" 
+      innerQuest1:
+        text: "Now that you have gotten some food, lets start your Adventure!\nGo Into the Maze to Find and Kill 10 Zombies!"
+        event: "startMobKill1i"
+        conditions: "!hasMobKill1i,hasStarterQuest"
+      innerQuest2:
+        text: "Thanks for Killing the Zombies, the Maze is Safer with you.\nGo Get me some Gold Nugget!!!"
+        event: "startPickup1i"
+        conditions: "!hasPickup1i,hasMobKill1i"
+        pointer: "playerinnerQuest2"
+      innerQuest3:
+        text: "Now that you have found some Loot from the Maze.\nI want you to go look for something a bit more rare, its found in Chest throughout the dungeon."
+        event: "startPickup2i"
+        conditions: "!hasPickup2i,hasPickup1i"
+      innerQuest4:
+        text: "Perfect, you are ready to gather Some Resources! look for some some stone to mine around the Maze!"
+        event: "startResource1i"
+        conditions: "!hasResource1i,hasPickup2i"
+    
+    player_options:
+      playerinnerQuest2:
+        text: "You got the Nuggets"
+        conditions: "hasPickup1i_1"
+        event: "endPickup1i"

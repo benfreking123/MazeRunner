@@ -1,0 +1,10 @@
+on right click:
+    if player's tool is shulker shell:
+        if name of player's tool is "Common Inner Loot Crate":
+            cancel event
+            remove 1 of player's tool from player's inventory
+            # Retrieve the placeholder value for this player and store it in a variable
+            set {_level} to placeholder "%%sapi_default_currentlevel%%" from player
+            # Now use the variable in your command by wrapping it with %{}%
+            execute console command "itemgen give %player% mazerunnerinner %{_level}% 1"
+            send "&aYou have opened a lootbox!" to player

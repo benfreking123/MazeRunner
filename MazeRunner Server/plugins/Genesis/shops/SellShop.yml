@@ -1,0 +1,54 @@
+ShopName: SellShop
+DisplayName: '&9&lSellShop'
+Command: sellshop
+signs:
+  text: '[SellShop]'
+  NeedPermissionToCreateSign: true
+shop:
+  Wool:
+    MenuItem:
+      - 'lore:&c10 Red, &110 Blue, &e10 Yellow and &a10 Green Wool #&cPrice: 400 Money'
+      - name:&9Colored Wool
+      - amount:40
+      - type:YELLOW_WOOL
+    RewardType: command
+    Reward:
+      - - amount:10
+        - type:RED_WOOL
+      - - amount:10
+        - type:BLUE_WOOL
+      - - amount:10
+        - type:YELLOW_WOOL
+      - - amount:10
+        - type:GREEN_WOOL
+    PriceType: MONEY
+    Price: 400.0
+    Message: '&eYou bought colored Wool! Money left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 1
+  SellLog:
+    MenuItem:
+      - name:&f&lAdventure mode
+      - lore:&8Set the gamemode of &l&6%input% &8to adventure mode.
+      - amount:1
+      - type:OAK_LOG
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell Oak_log'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  SellDiamond:
+    MenuItem:
+      - name:&f&lAdventure mode
+      - lore:&8Set the gamemode of &l&6%input% &8to adventure mode.
+      - amount:1
+      - type:Diamond
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell Diamond'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3

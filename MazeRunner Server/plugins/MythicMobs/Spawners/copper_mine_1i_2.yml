@@ -1,0 +1,11 @@
+copper_mine_1i_2:
+  MobName: GoblinTosserInner
+  World: world
+  X: 58
+  Y: 50
+  Z: -418
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '1'
+  Cooldown: 0
+  Warmup: 0

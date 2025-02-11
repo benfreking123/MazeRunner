@@ -1,0 +1,9 @@
+conditions: 
+  isDay: "time 6-18"
+  hasStarterQuest: "tag ReceivedStarterQuest"
+  hasMobKill1i: "tag ReceivedMobKill1i"
+  hasPickup1i: "tag ReceivedPickup1i"
+  hasPickup1i_1: "item gold_nugget:3"
+  hasPickup2i: "tag ReceivedPickup2i"
+  hasResource1i: "tag ReceivedResource1i"
+

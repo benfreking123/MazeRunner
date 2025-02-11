@@ -1,0 +1,15 @@
+physical:
+  priority: 100
+  name: Physical Defense
+  format: '&6▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - physical
+  protection-factor: 0.8
+
+magical:
+  priority: 10
+  name: Magical Defense
+  format: '&d▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - magical
+  protection-factor: 0.8

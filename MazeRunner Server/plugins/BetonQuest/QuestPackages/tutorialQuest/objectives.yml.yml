@@ -1,0 +1,5 @@
+objectives: 
+  mobKill1i: "mobkill ZOMBIE 1 notify events:endMobKill1i"
+  pickup1i: "pickup gold_nugget amount:3 notify"
+  pickup2i: "pickup loot_box_common amount:1 notify events:endPickup2i"
+  resource1i: "block stone -16 notify events:endResource1i"

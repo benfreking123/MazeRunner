@@ -1,0 +1,79 @@
+towny: true
+factionsuuid: true
+lands: true
+residence: true
+grief-prevention: true
+protections-stones: true
+grief-defender: true
+
+disabled-regions:
+  # If set to true, block regen will only work in these regions
+  whitelist: false
+  list:
+    - region1
+
+disabled-worlds:
+  # If set to true, block regen will only work in these worlds
+  whitelist: false
+  list:
+    - world_nether
+
+disable_crop_growth: true
+#This will disable melon/pumpkin growth
+disable_melon_growth: true
+disable_turtle_egg: false
+#This will disable bamboo and chorus plants
+disable_block_growth: true
+#Wiki
+# https://github.com/magemonkeystudio/mirage/wiki/Config.yml
+entries:
+- materials:
+  - COPPER_ORE
+  break-material: COBBLESTONE
+  regen-delay: 600
+  rewards:
+    - "exp:5"
+  cancel-drop: false
+  command:
+  - delay: 0
+    as: CONSOLE
+    cmd: say {player}
+    chance: 100.0
+- materials:
+  - STONE
+  break-material: COBBLESTONE
+  regen-delay: 600
+  rewards:
+    - "exp:5"
+  cancel-drop: false
+  command:
+  - delay: 0
+    as: CONSOLE
+    cmd: say {player}
+    chance: 100.0
+- materials:
+  - WHEAT
+  break-material: AIR
+  regen-delay: 600
+  rewards:
+    - "exp:5"
+  cancel-drop: false
+  command:
+  - delay: 0
+    as: CONSOLE
+    cmd: say {player}
+    chance: 100.0
+  age: 7
+- materials:
+  - OAK_WOOD
+  break-material: STRIPPED_OAK_LOG
+  regen-delay: 600
+  rewards:
+    - "exp:5"
+  cancel-drop: false
+  command:
+  - delay: 0
+    as: CONSOLE
+    cmd: say {player}
+    chance: 100.0
+  age: 7

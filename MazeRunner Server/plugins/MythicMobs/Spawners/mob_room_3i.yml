@@ -1,0 +1,19 @@
+mob_room_3i:
+  MobName: DirtmanInner
+  World: world
+  X: 60
+  Y: 65
+  Z: -300
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '1'
+  MaxMobs: 3
+  Radius: 10
+  Cooldown: 5
+  CheckForPlayers: true
+  ActivationRange: 25
+  LeashRange: 25
+  MobsPerSpawn: 2
+  Warmup: 0
+  ActiveMobs: 2
+  CooldownTimer: 1

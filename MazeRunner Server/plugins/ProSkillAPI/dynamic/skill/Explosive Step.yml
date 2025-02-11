@@ -1,0 +1,106 @@
+'Explosive Step': 
+  name: 'Explosive Step'
+  type: 'Dynamic'
+  'max-level': 5
+  'skill-req-lvl': 0
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '0'
+    'cooldown-base': '0'
+    'cooldown-scale': '0'
+    'mana-base': '0'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'PUMPKIN'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    Move: 
+      type: 'trigger'
+      data: 
+        mana: 'false'
+        cooldown: 'false'
+      preview: 
+        enabled: 'false'
+      children: 
+        Remember: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            key: 'target_test'
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+          children: 
+            'Value Distance': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                key: 'test_123'
+                save: 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+        Message: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            message: '{distant_test}'
+          preview: 
+            enabled: 'false'
+          children: {}
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Offset: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '2'
+            'upward-scale': '0.5'
+            'right-base': '0'
+            'right-scale': '0'
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+          children: 
+            'Remember Targets': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                key: 'target_test'
+              preview: 
+                enabled: 'false'
+              children: {}

@@ -1,0 +1,241 @@
+ARMOR:
+    protection:
+        0: 80
+        1: 10
+        2: 5
+        3: 4
+        4: 1
+    fire_protection:
+        0: 80
+        1: 10
+        2: 5
+        3: 4
+        4: 1
+    blast_protection:
+        0: 80
+        1: 10
+        2: 5
+        3: 4
+        4: 1
+    projectile_protection:
+        0: 80
+        1: 10
+        2: 5
+        3: 4
+        4: 1
+    thorns:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    unbreaking:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    mending:
+        0: 90
+        1: 10
+
+SWORD:
+    sharpness:
+        0: 80
+        1: 10
+        2: 4
+        3: 3
+        4: 2
+        5: 1
+    smite:
+        0: 80
+        1: 10
+        2: 4
+        3: 3
+        4: 2
+        5: 1
+    bane_of_athropods:
+        0: 80
+        1: 10
+        2: 4
+        3: 3
+        4: 2
+        5: 1
+    knockback:
+        0: 95
+        1: 4
+        2: 1
+    fire_aspect:
+        0: 95
+        1: 4
+        2: 1
+    looting:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    unbreaking:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    mending:
+        0: 90
+        1: 10
+
+AXE:
+    sharpness:
+        0: 80
+        1: 10
+        2: 4
+        3: 3
+        4: 2
+        5: 1
+    smite:
+        0: 80
+        1: 10
+        2: 4
+        3: 3
+        4: 2
+        5: 1
+    bane_of_athropods:
+        0: 80
+        1: 10
+        2: 4
+        3: 3
+        4: 2
+        5: 1
+    knockback:
+        0: 95
+        1: 4
+        2: 1
+    fire_aspect:
+        0: 95
+        1: 4
+        2: 1
+    looting:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    unbreaking:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    mending:
+        0: 90
+        1: 10
+
+BOW:
+    power:
+        0: 80
+        1: 10
+        2: 4
+        3: 3
+        4: 2
+        5: 1
+    punch:
+        0: 95
+        1: 4
+        2: 1
+    flame:
+        0: 99
+        1: 1
+    infinity:
+        0: 99
+        1: 1
+    unbreaking:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    mending:
+        0: 90
+        1: 10
+
+PICKAXE:
+    efficiency:
+        0: 80
+        1: 10
+        2: 4
+        3: 3
+        4: 2
+        5: 1
+    unbreaking:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    mending:
+        0: 90
+        1: 10
+
+SHOVEL:
+    efficiency:
+        0: 80
+        1: 10
+        2: 4
+        3: 3
+        4: 2
+        5: 1
+    unbreaking:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    mending:
+        0: 90
+        1: 10
+
+HOE:
+    unbreaking:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    mending:
+        0: 90
+        1: 10
+
+FISHING_ROD:
+    lure:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    luck_of_the_sea:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    unbreaking:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    mending:
+        0: 90
+        1: 10
+
+CROSSBOW:
+    multishot:
+        0: 90
+        1: 10
+    piercing:
+        0: 90
+        1: 4
+        2: 3
+        3: 2
+        4: 1
+    quick_charge:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    unbreaking:
+        0: 90
+        1: 5
+        2: 4
+        3: 1
+    mending:
+        0: 90
+        1: 10

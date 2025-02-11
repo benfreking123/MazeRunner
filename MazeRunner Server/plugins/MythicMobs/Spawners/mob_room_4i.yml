@@ -1,0 +1,11 @@
+mob_room_4i:
+  MobName: ArcherInner
+  World: world
+  X: 74
+  Y: 64
+  Z: -352
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '1'
+  Cooldown: 0
+  Warmup: 0

@@ -1,0 +1,140 @@
+[21-01-2025 13:47:12] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[21-01-2025 13:47:12] Successfully hooked into "WorldGuard"!
+[21-01-2025 13:47:12] Successfully hooked into "GriefPrevention"!
+[21-01-2025 13:47:12] New file created at plugins\BigDoors\doorDB.db
+[21-01-2025 13:47:37] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[21-01-2025 13:47:37] Successfully hooked into "WorldGuard"!
+[21-01-2025 13:47:37] Successfully hooked into "GriefPrevention"!
+[21-01-2025 13:53:55] Updating openDirection of portcullis 1 "test_1" to DOWN. If this is undesired, change it via the GUI.
+[21-01-2025 14:17:09] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[21-01-2025 14:17:09] Successfully hooked into "WorldGuard"!
+[21-01-2025 14:17:09] Successfully hooked into "GriefPrevention"!
+[24-01-2025 15:36:17] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[24-01-2025 15:36:17] Successfully hooked into "WorldGuard"!
+[24-01-2025 15:36:17] Successfully hooked into "GriefPrevention"!
+[29-01-2025 12:17:26] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 12:17:26] Successfully hooked into "WorldGuard"!
+[29-01-2025 12:17:26] Successfully hooked into "GriefPrevention"!
+[29-01-2025 13:28:39] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 13:28:39] Successfully hooked into "WorldGuard"!
+[29-01-2025 13:28:39] Successfully hooked into "GriefPrevention"!
+[29-01-2025 13:32:48] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 13:32:48] Successfully hooked into "WorldGuard"!
+[29-01-2025 13:32:48] Successfully hooked into "GriefPrevention"!
+[29-01-2025 13:34:30] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 13:34:30] Successfully hooked into "WorldGuard"!
+[29-01-2025 13:34:30] Successfully hooked into "GriefPrevention"!
+[29-01-2025 13:39:07] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 13:39:07] Successfully hooked into "WorldGuard"!
+[29-01-2025 13:39:07] Successfully hooked into "GriefPrevention"!
+[29-01-2025 13:41:41] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 13:41:41] Successfully hooked into "WorldGuard"!
+[29-01-2025 13:41:41] Successfully hooked into "GriefPrevention"!
+[29-01-2025 13:47:32] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 13:47:32] Successfully hooked into "WorldGuard"!
+[29-01-2025 13:47:32] Successfully hooked into "GriefPrevention"!
+[29-01-2025 15:54:20] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 15:54:20] Successfully hooked into "WorldGuard"!
+[29-01-2025 15:54:20] Successfully hooked into "GriefPrevention"!
+[29-01-2025 16:02:38] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 16:02:38] Successfully hooked into "WorldGuard"!
+[29-01-2025 16:02:38] Successfully hooked into "GriefPrevention"!
+[29-01-2025 16:04:24] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 16:04:24] Successfully hooked into "WorldGuard"!
+[29-01-2025 16:04:24] Successfully hooked into "GriefPrevention"!
+[29-01-2025 16:05:52] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 16:05:52] Successfully hooked into "WorldGuard"!
+[29-01-2025 16:05:52] Successfully hooked into "GriefPrevention"!
+[29-01-2025 16:06:43] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 16:06:43] Successfully hooked into "WorldGuard"!
+[29-01-2025 16:06:43] Successfully hooked into "GriefPrevention"!
+[29-01-2025 16:18:35] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 16:18:35] Successfully hooked into "WorldGuard"!
+[29-01-2025 16:18:35] Successfully hooked into "GriefPrevention"!
+[29-01-2025 18:19:17] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 18:19:17] Successfully hooked into "WorldGuard"!
+[29-01-2025 18:19:17] Successfully hooked into "GriefPrevention"!
+[29-01-2025 18:23:59] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 18:23:59] Successfully hooked into "WorldGuard"!
+[29-01-2025 18:23:59] Successfully hooked into "GriefPrevention"!
+[29-01-2025 19:11:28] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 19:11:28] Successfully hooked into "WorldGuard"!
+[29-01-2025 19:11:28] Successfully hooked into "GriefPrevention"!
+[29-01-2025 19:13:04] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[29-01-2025 19:13:04] Successfully hooked into "WorldGuard"!
+[29-01-2025 19:13:04] Successfully hooked into "GriefPrevention"!
+[30-01-2025 11:04:26] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[30-01-2025 11:04:26] Successfully hooked into "WorldGuard"!
+[30-01-2025 11:04:26] Successfully hooked into "GriefPrevention"!
+[30-01-2025 11:54:50] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[30-01-2025 11:54:50] Successfully hooked into "WorldGuard"!
+[30-01-2025 11:54:50] Successfully hooked into "GriefPrevention"!
+[04-02-2025 14:42:36] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[04-02-2025 14:42:36] Successfully hooked into "WorldGuard"!
+[04-02-2025 14:42:36] Successfully hooked into "GriefPrevention"!
+[04-02-2025 15:21:32] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[04-02-2025 15:21:32] Successfully hooked into "WorldGuard"!
+[04-02-2025 15:21:32] Successfully hooked into "GriefPrevention"!
+[04-02-2025 21:23:27] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[04-02-2025 21:23:27] Successfully hooked into "WorldGuard"!
+[04-02-2025 21:23:27] Successfully hooked into "GriefPrevention"!
+[04-02-2025 22:10:16] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[04-02-2025 22:10:16] Successfully hooked into "WorldGuard"!
+[04-02-2025 22:10:16] Successfully hooked into "GriefPrevention"!
+[04-02-2025 23:37:51] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[04-02-2025 23:37:51] Successfully hooked into "WorldGuard"!
+[04-02-2025 23:37:51] Successfully hooked into "GriefPrevention"!
+[04-02-2025 23:52:24] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[04-02-2025 23:52:24] Successfully hooked into "WorldGuard"!
+[04-02-2025 23:52:24] Successfully hooked into "GriefPrevention"!
+[04-02-2025 23:55:01] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[04-02-2025 23:55:01] Successfully hooked into "WorldGuard"!
+[04-02-2025 23:55:01] Successfully hooked into "GriefPrevention"!
+[05-02-2025 14:08:35] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[05-02-2025 14:08:35] Successfully hooked into "WorldGuard"!
+[05-02-2025 14:08:35] Successfully hooked into "GriefPrevention"!
+[05-02-2025 15:47:48] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[05-02-2025 15:47:48] Successfully hooked into "WorldGuard"!
+[05-02-2025 15:47:48] Successfully hooked into "GriefPrevention"!
+[06-02-2025 11:52:34] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[06-02-2025 11:52:34] Successfully hooked into "WorldGuard"!
+[06-02-2025 11:52:34] Successfully hooked into "GriefPrevention"!
+[06-02-2025 15:21:51] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[06-02-2025 15:21:51] Successfully hooked into "WorldGuard"!
+[06-02-2025 15:21:51] Successfully hooked into "GriefPrevention"!
+[07-02-2025 14:31:56] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[07-02-2025 14:31:56] Successfully hooked into "WorldGuard"!
+[07-02-2025 14:31:56] Successfully hooked into "GriefPrevention"!
+[07-02-2025 14:34:39] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[07-02-2025 14:34:40] Successfully hooked into "WorldGuard"!
+[07-02-2025 14:34:40] Successfully hooked into "GriefPrevention"!
+[07-02-2025 15:03:48] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[07-02-2025 15:03:48] Successfully hooked into "WorldGuard"!
+[07-02-2025 15:03:48] Successfully hooked into "GriefPrevention"!
+[07-02-2025 15:07:27] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[07-02-2025 15:07:27] Successfully hooked into "WorldGuard"!
+[07-02-2025 15:07:27] Successfully hooked into "GriefPrevention"!
+[07-02-2025 15:27:56] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[07-02-2025 15:27:56] Successfully hooked into "WorldGuard"!
+[07-02-2025 15:27:56] Successfully hooked into "GriefPrevention"!
+[07-02-2025 16:33:35] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[07-02-2025 16:33:35] Successfully hooked into "WorldGuard"!
+[07-02-2025 16:33:35] Successfully hooked into "GriefPrevention"!
+[08-02-2025 16:25:35] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[08-02-2025 16:25:35] Successfully hooked into "WorldGuard"!
+[08-02-2025 16:25:35] Successfully hooked into "GriefPrevention"!
+[08-02-2025 16:53:10] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[08-02-2025 16:53:10] Successfully hooked into "WorldGuard"!
+[08-02-2025 16:53:10] Successfully hooked into "GriefPrevention"!
+[08-02-2025 16:54:42] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[08-02-2025 16:54:42] Successfully hooked into "WorldGuard"!
+[08-02-2025 16:54:42] Successfully hooked into "GriefPrevention"!
+[10-02-2025 12:01:52] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[10-02-2025 12:01:52] Successfully hooked into "WorldGuard"!
+[10-02-2025 12:01:52] Successfully hooked into "GriefPrevention"!
+[10-02-2025 17:50:19] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[10-02-2025 17:50:19] Successfully hooked into "WorldGuard"!
+[10-02-2025 17:50:19] Successfully hooked into "GriefPrevention"!
+[11-02-2025 02:10:34] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[11-02-2025 02:10:34] Successfully hooked into "WorldGuard"!
+[11-02-2025 02:10:34] Successfully hooked into "GriefPrevention"!

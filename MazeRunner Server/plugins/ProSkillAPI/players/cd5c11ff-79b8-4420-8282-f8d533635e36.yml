@@ -1,0 +1,87 @@
+limit: 10
+active: 2
+health: 13.999998092651367
+mana: 29.0
+accounts: 
+  acc1: 
+    classes: 
+      baseliner: 
+        level: 10
+        points: 3
+        exp: 0.0
+    skills: 
+      'Poison Darts': 
+        level: 0
+      'Fire Skill Burst': 
+        level: 2
+      Bomb: 
+        level: 3
+      Dash: 
+        level: 2
+    binds: {}
+    'attrib-points': 15
+    attribs: 
+      dexterity: 3
+      strength: 4
+      vitality: 1
+    attrstages: 
+      dexterity: 3
+      strength: 4
+      vitality: 1
+    'text-layout': 
+      0: 'Bomb'
+      1: 'Dash'
+    hunger: 1.0
+    persistent: {}
+  acc2: 
+    classes: 
+      baseliner: 
+        level: 10
+        points: 10
+        exp: 21.0
+    skills: 
+      'Poison Darts': 
+        level: 0
+      'Fire Skill Burst': 
+        level: 0
+      Bomb: 
+        level: 0
+      Dash: 
+        level: 0
+    binds: {}
+    'attrib-points': 32
+    attribs: {}
+    attrstages: {}
+    'text-layout': {}
+    hunger: 1.0
+    persistent: {}
+  acc3: 
+    classes: {}
+    skills: {}
+    binds: {}
+    'attrib-points': 0
+    attribs: {}
+    attrstages: {}
+    'text-layout': {}
+    hunger: 1.0
+    persistent: {}
+  acc4: 
+    classes: {}
+    skills: {}
+    binds: {}
+    'attrib-points': 0
+    attribs: {}
+    attrstages: {}
+    'text-layout': {}
+    hunger: 1.0
+    persistent: {}
+  acc5: 
+    classes: {}
+    skills: {}
+    binds: {}
+    'attrib-points': 0
+    attribs: {}
+    attrstages: {}
+    'text-layout': {}
+    hunger: 1.0
+    persistent: {}

@@ -1,0 +1,424 @@
+loaded: 'true'
+baseliner: 
+  name: 'baseliner'
+  'action-bar': ''
+  prefix: '&6BaseLiner (X)'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 10
+  parent: ''
+  'needs-permission': 'false'
+  attributes: 
+    'health-base': '20'
+    'health-scale': '1'
+    'mana-base': '20'
+    'mana-scale': '1'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'strength-base': '0'
+    'strength-scale': '0'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+  'mana-regen': 1.0
+  'skill-tree': 'REQUIREMENT'
+  blacklist: []
+  skills: 
+  - 'Bomb'
+  - 'Dash'
+  - 'Poison Darts'
+  - 'Fire Skill Burst'
+  icon: 'BARREL'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'baseliner'
+  'exp-source': 273
+  'combo-starters': 
+    F: 
+      inverted: 'true'
+      whitelist: []
+    R: 
+      inverted: 'true'
+      whitelist: []
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    RS: 
+      inverted: 'true'
+      whitelist: []
+    P: 
+      inverted: 'true'
+      whitelist: []
+    Q: 
+      inverted: 'true'
+      whitelist: []
+    S: 
+      inverted: 'true'
+      whitelist: []
+    L: 
+      inverted: 'true'
+      whitelist: []
+paladin: 
+  name: 'paladin'
+  'action-bar': ''
+  prefix: '&6Paladin (X)'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 40
+  parent: 'baseliner'
+  'needs-permission': 'false'
+  attributes: 
+    'health-base': '20'
+    'health-scale': '1'
+    'mana-base': '20'
+    'mana-scale': '1'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'strength-base': '0'
+    'strength-scale': '0'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+  'mana-regen': 1.0
+  'skill-tree': 'REQUIREMENT'
+  blacklist: []
+  skills: []
+  icon: 'GOLDEN_APPLE'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'paladin'
+  'exp-source': 273
+  'combo-starters': 
+    F: 
+      inverted: 'true'
+      whitelist: []
+    R: 
+      inverted: 'true'
+      whitelist: []
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    RS: 
+      inverted: 'true'
+      whitelist: []
+    P: 
+      inverted: 'true'
+      whitelist: []
+    Q: 
+      inverted: 'true'
+      whitelist: []
+    S: 
+      inverted: 'true'
+      whitelist: []
+    L: 
+      inverted: 'true'
+      whitelist: []
+ranger: 
+  name: 'ranger'
+  'action-bar': ''
+  prefix: '&6Ranger (X)'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 40
+  parent: 'baseliner'
+  'needs-permission': 'false'
+  attributes: 
+    'health-base': '20'
+    'health-scale': '1'
+    'mana-base': '20'
+    'mana-scale': '1'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'strength-base': '0'
+    'strength-scale': '0'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+  'mana-regen': 1.0
+  'skill-tree': 'REQUIREMENT'
+  blacklist: []
+  skills: []
+  icon: 'BOW'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'ranger'
+  'exp-source': 273
+  'combo-starters': 
+    F: 
+      inverted: 'true'
+      whitelist: []
+    R: 
+      inverted: 'true'
+      whitelist: []
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    RS: 
+      inverted: 'true'
+      whitelist: []
+    P: 
+      inverted: 'true'
+      whitelist: []
+    Q: 
+      inverted: 'true'
+      whitelist: []
+    S: 
+      inverted: 'true'
+      whitelist: []
+    L: 
+      inverted: 'true'
+      whitelist: []
+rouge: 
+  name: 'rouge'
+  'action-bar': ''
+  prefix: '&6Rouge (X)'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 40
+  parent: 'baseliner'
+  'needs-permission': 'false'
+  attributes: 
+    'health-base': '20'
+    'health-scale': '1'
+    'mana-base': '20'
+    'mana-scale': '1'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'strength-base': '0'
+    'strength-scale': '0'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+  'mana-regen': 1.0
+  'skill-tree': 'REQUIREMENT'
+  blacklist: []
+  skills: []
+  icon: 'POISONOUS_POTATO'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'rouge'
+  'exp-source': 273
+  'combo-starters': 
+    F: 
+      inverted: 'true'
+      whitelist: []
+    R: 
+      inverted: 'true'
+      whitelist: []
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    RS: 
+      inverted: 'true'
+      whitelist: []
+    P: 
+      inverted: 'true'
+      whitelist: []
+    Q: 
+      inverted: 'true'
+      whitelist: []
+    S: 
+      inverted: 'true'
+      whitelist: []
+    L: 
+      inverted: 'true'
+      whitelist: []
+sage: 
+  name: 'sage'
+  'action-bar': ''
+  prefix: '&6Sage (X)'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 35
+  parent: 'baseliner'
+  'needs-permission': 'false'
+  attributes: 
+    'health-base': '20'
+    'health-scale': '1'
+    'mana-base': '20'
+    'mana-scale': '1'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'strength-base': '0'
+    'strength-scale': '0'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+  'mana-regen': 1.0
+  'skill-tree': 'REQUIREMENT'
+  blacklist: []
+  skills: 
+  - 'Earthquake'
+  - 'Plague'
+  - 'Rain of Arrows'
+  - 'Ring of Fire'
+  - 'Dash'
+  - 'Jump Smash'
+  icon: 'BELL'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'sage'
+  'exp-source': 273
+  'combo-starters': 
+    F: 
+      inverted: 'true'
+      whitelist: []
+    R: 
+      inverted: 'true'
+      whitelist: []
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    RS: 
+      inverted: 'true'
+      whitelist: []
+    P: 
+      inverted: 'true'
+      whitelist: []
+    Q: 
+      inverted: 'true'
+      whitelist: []
+    S: 
+      inverted: 'true'
+      whitelist: []
+    L: 
+      inverted: 'true'
+      whitelist: []
+seeker: 
+  name: 'seeker'
+  'action-bar': ''
+  prefix: '&6Seeker (X)'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 40
+  parent: 'baseliner'
+  'needs-permission': 'false'
+  attributes: 
+    'health-base': '20'
+    'health-scale': '1'
+    'mana-base': '20'
+    'mana-scale': '1'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'strength-base': '0'
+    'strength-scale': '0'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+  'mana-regen': 1.0
+  'skill-tree': 'REQUIREMENT'
+  blacklist: []
+  skills: []
+  icon: 'LEATHER_BOOTS'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'seeker'
+  'exp-source': 273
+  'combo-starters': 
+    F: 
+      inverted: 'true'
+      whitelist: []
+    R: 
+      inverted: 'true'
+      whitelist: []
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    RS: 
+      inverted: 'true'
+      whitelist: []
+    P: 
+      inverted: 'true'
+      whitelist: []
+    Q: 
+      inverted: 'true'
+      whitelist: []
+    S: 
+      inverted: 'true'
+      whitelist: []
+    L: 
+      inverted: 'true'
+      whitelist: []
+warrior: 
+  name: 'warrior'
+  'action-bar': ''
+  prefix: '&6Warrior (X)'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 40
+  parent: 'baseliner'
+  'needs-permission': 'false'
+  attributes: 
+    'health-base': '20'
+    'health-scale': '1'
+    'mana-base': '20'
+    'mana-scale': '1'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'strength-base': '0'
+    'strength-scale': '0'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+  'mana-regen': 1.0
+  'skill-tree': 'REQUIREMENT'
+  blacklist: []
+  skills: []
+  icon: 'LEATHER_CHESTPLATE'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'warrior'
+  'exp-source': 273
+  'combo-starters': 
+    F: 
+      inverted: 'true'
+      whitelist: []
+    R: 
+      inverted: 'true'
+      whitelist: []
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    RS: 
+      inverted: 'true'
+      whitelist: []
+    P: 
+      inverted: 'true'
+      whitelist: []
+    Q: 
+      inverted: 'true'
+      whitelist: []
+    S: 
+      inverted: 'true'
+      whitelist: []
+    L: 
+      inverted: 'true'
+      whitelist: []

@@ -1,0 +1,6 @@
+on right click on a nether portal:
+    if player's tool is heart of the sea:
+        if name of player's tool is "Crypt Key":
+            cancel event
+            execute console command "md play Crypt %player%"
+            send "&aYou started the Crypt Dungeon" to player

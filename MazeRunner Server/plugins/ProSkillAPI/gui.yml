@@ -1,0 +1,162 @@
+ATTRIBUTES: 
+  rows: 1
+  pages: 1
+  slots: 
+    1: 
+      dexterity: 3
+      strength: 4
+      vitality: 0
+      spirit: 1
+      intelligence: 2
+csbaseliner: 
+  rows: 3
+  pages: 1
+  slots: 
+    1: 
+      warrior: 0
+      ranger: 5
+      sage: 1
+      seeker: 2
+      paladin: 3
+      rouge: 4
+stWarrior: 
+  rows: 5
+  pages: 1
+  slots: 
+    1: 
+      lightning: 36
+      clear: 1
+      roll: 10
+      'group heal': 9
+      'sword buffs': 27
+      'smoke bomb': 18
+      fireball: 0
+      'summon throwing dagger': 19
+      'blood slash': 28
+stpaladin: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'poison darts': 27
+      'fire skill burst': 18
+      bomb: 0
+      dash: 9
+stMarksman: 
+  rows: 5
+  pages: 1
+  slots: 
+    1: 
+      'pep talk': 36
+      clear: 9
+      'smoke bomb': 18
+      fireball: 0
+      'summon throwing dagger': 27
+stwarrior: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'poison darts': 27
+      'fire skill burst': 18
+      bomb: 0
+      dash: 9
+strouge: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'poison darts': 27
+      'fire skill burst': 18
+      bomb: 0
+      dash: 9
+stseeker: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'poison darts': 27
+      'fire skill burst': 18
+      bomb: 0
+      dash: 9
+stNinja: 
+  rows: 2
+  pages: 1
+  slots: 
+    1: 
+      clear: 0
+      'smoke bomb': 9
+stbase_class: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'explosive launch': 9
+      'poison darts': 27
+      'explosive bomb': 0
+      plague: 18
+stMage: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      lightning: 27
+      clear: 1
+      roll: 18
+      'group heal': 10
+      'smoke bomb': 19
+      fireball: 0
+      'poison damage': 9
+CLASS_DETAILS: 
+  rows: 3
+  pages: 1
+  slots: 
+    1: 
+      class: 0
+stsage: 
+  rows: 5
+  pages: 1
+  slots: 
+    1: 
+      'rain of arrows': 36
+      'ring of fire': 37
+      'poison darts': 28
+      'jump smash': 19
+      'fire skill burst': 18
+      earthquake: 10
+      bomb: 0
+      dash: 9
+      plague: 27
+stHunter: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      roll: 0
+      'sword buffs': 27
+      'smoke bomb': 9
+      'summon throwing dagger': 18
+stranger: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'poison darts': 27
+      'fire skill burst': 18
+      bomb: 0
+      dash: 9
+CLASS_SELECTION: 
+  rows: 3
+  pages: 1
+  slots: 
+    1: 
+      baseliner: 0
+stbaseliner: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'poison darts': 27
+      'fire skill burst': 18
+      bomb: 0
+      dash: 9

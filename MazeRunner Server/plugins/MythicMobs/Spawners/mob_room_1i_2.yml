@@ -1,0 +1,15 @@
+mob_room_1i_2:
+  MobName: 50%RunnerInner,50%ZombieInner
+  World: world
+  X: 37
+  Y: 64
+  Z: -255
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '1'
+  ActiveMobs: 1
+  CheckForPlayers: true
+  Cooldown: 120
+  Warmup: 0
+  ActivationRange: 25
+  CooldownTimer: 1

@@ -1,0 +1,18 @@
+RockToss:
+    Cooldown: 3
+    Conditions:
+    - offgcd
+    Skills:
+    - gcd{ticks=160}
+#    - message{m="<mob.name>&f<&co> Sticks and stones will break your bones!"} @PIR{r=40}
+    - projectile{bulletType=ITEM;material=STONE;onHit=RockToss-Hit;onTick=RockToss-Tick;i=1;hR=2.0;vR=2.0;d=800;mr=100;v=28;syo=+1.5;sfo=+1;hp=true;hnp=true;g=1;vo=0.4} @targetlocation
+RockToss-Hit:
+    Skills:
+    - damage{amount=6} @PlayersNearOrigin{r=3}
+RockToss-End:
+    Skills:
+    - effect:particles{p=block_crack;m=stone;a=20;hSpread=3.0;vSpread=3.0} @origin
+    - effect:particles{p=block_crack;m=stone;a=10;hSpread=1.0;vSpread=1.0} @origin
+RockToss-Tick:
+    Skills:
+    - effect:particles{p=block_crack;m=stone;a=10;hSpread=0.5;vSpread=0.5} @origin

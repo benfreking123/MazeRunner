@@ -1,0 +1,25 @@
+events: 
+  startStarterQuest: "give steak:16"
+  tagStarterQuest: "tag add ReceivedStarterQuest"
+
+  startMobKill1i: "objective start mobKill1i"
+  endMobKill1i: "folder questComplete,tagMobKill1i,rewardMobKill1i"
+  tagMobKill1i: "tag add ReceivedMobKill1i"
+  rewardMobKill1i: "command class exp %player% 100"
+  
+  startPickup1i: "objective start pickup1i"
+  endPickup1i: "folder questComplete,tagPickup1i,rewardPickup1i"
+  tagPickup1i: "tag add ReceivedPickup1i"
+  rewardPickup1i: "command class exp %player% 100|class ap %player% 1"
+
+  startPickup2i: "objective start pickup2i"
+  endPickup2i: "folder questComplete,tagPickup2i,rewardPickup2i"
+  tagPickup2i: "tag add ReceivedPickup2i"
+  rewardPickup2i: "command class exp %player% 100|consumables give %player% small_health_potion 1 1"
+
+  startResource1i: "objective start resource1i"
+  endResource1i: "folder questComplete,tagResource1i,rewardResource1i"
+  tagResource1i: "tag add ReceivedResource1i"
+  rewardResource1i: "command class exp %player% 100"
+
+  questComplete: "notify You have finished the Quest!\n Return to Spawn to turn in the Quest!"

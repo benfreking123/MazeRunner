@@ -1,0 +1,155 @@
+ZombieInner:
+  Type: ZOMBIE
+  Display: '&5Zombie Lvl - <caster.level>'
+  Health: 20
+  Damage: 5
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+RunnerInner:
+  Type: ZOMBIE
+  Display: '&5Runner Lvl - <caster.level>'
+  Health: 20
+  Damage: 7
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  Options:
+    MovementSpeed: 0.35  # Faster than usual zombiesR
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+FarmerInner:
+  Type: ZOMBIE_VILLAGER
+  Display: '&5Farmer Lvl - <caster.level>'
+  Health: 20
+  Damage: 5
+  Equipment:
+  - WOODEN_HOE HAND
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  Options:
+      PreventOtherDrops: true
+DirtmanInner:
+  Type: ZOMBIE
+  Display: '&5Dirtman Lvl - <caster.level>'
+  Health: 20
+  Damage: 5
+  Equipment:
+  - DIRT HAND
+  - DIRT OFFHAND
+  - GRASS_BLOCK HEAD
+  - LEATHER_CHESTPLATE CHEST
+  - LEATHER_LEGGINGS LEGS
+  - LEATHER_BOOTS FEET
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  - DIRT 1to2 0.5
+  Options:
+      PreventOtherDrops: true
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+TosserInner:
+    Type: ZOMBIE
+    Display: '&9Tosser Lvl - <caster.level>'
+    Health: 20
+    Damage: 6
+    Drops:
+    - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+    Equipment:
+    - STONE HAND
+    - leather_chestplate{color=GRAY} CHEST
+    - leather_leggings{color=GRAY} LEGS
+    - leather_boots{color=GRAY} FEET
+    - STONE HEAD
+    AIGoalSelectors:
+    - 0 clear
+    - 1 fleeplayers
+    - 2 float
+    - 3 movetowardstarget
+    - 4 lookatplayers
+    - 5 randomstroll
+    Options:
+        AlwaysShowName: true
+        FollowRange: 15
+        PreventOtherDrops: true
+        PreventItemPickup: true
+        PreventRandomItems: true
+    Skills:
+    - skill{s=RockToss} @target ~onTimer:5
+GoblinTosserInner:
+    Type: BABY_ZOMBIE
+    Display: '&9Goblin Tosser Lvl - <caster.level>'
+    Health: 20
+    Damage: 6
+    Drops:
+    - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+    Equipment:
+    - STONE HAND
+    - AIR OFFHAND
+    AIGoalSelectors:
+    - 0 clear
+    - 1 fleeplayers
+    - 2 float
+    - 3 movetowardstarget
+    - 4 lookatplayers
+    - 5 randomstroll
+    Options:
+        AlwaysShowName: true
+        FollowRange: 15
+        MovementSpeed: 0.3
+        PreventOtherDrops: true
+        PreventItemPickup: true
+        PreventRandomItems: true
+    Skills:
+    - skill{s=RockToss} @target ~onTimer:5
+ArcherInner:
+    Type: SKELETON
+    Display: '&9Archer Lvl - <caster.level>'
+    Health: 20
+    Damage: 6
+    Drops:
+    - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+    Options:
+        AlwaysShowName: true
+        FollowRange: 15
+        MovementSpeed: 0.3
+        PreventOtherDrops: false
+        PreventItemPickup: true
+    Skills: ArcherI
+    - shoot{type=ARROW;velocity=10;damage=6} @Target ~onTimer:3
+    Modules:
+        ThreatTable: true
+SkeletonKing:
+  Type: WITHER_SKELETON
+  Display: '&6Skeleton King'
+  Health: 500
+  Damage: 10
+  Skills:
+  - speak{m="None may challenge the Skeleton King!";cooldown=20} @PlayersInRadius{r=40}
+    ~onCombat 0.2
+  - speak{m="Ahahahahah! Die, <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill
+  - skill{s=SummonSkeletons} @self 0.1
+  - skill{s=SmashAttack} @target 0.2
+  Equipment:
+  - KingsCrown HEAD
+  - SkeletonKingSword HAND
+  Drops:
+  - SkeletonKingDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+SkeletalMinion:
+  Type: SKELETON
+  Display: '&2Skeletal Minion'
+  Health: 10
+  Damage: 2
+  Options:
+    MovementSpeed: 0.1

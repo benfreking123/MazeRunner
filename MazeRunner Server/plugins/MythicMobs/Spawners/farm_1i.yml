@@ -1,0 +1,19 @@
+farm_1i:
+  MobName: FarmerInner
+  World: world
+  X: 118
+  Y: 66
+  Z: -284
+  Yaw: 0.0
+  Pitch: 0.0
+  MaxMobs: 4
+  MobLevel: '3'
+  Radius: 13
+  Cooldown: 5
+  CheckForPlayers: true
+  ActivationRange: 35
+  LeashRange: 32
+  MobsPerSpawn: 2
+  Warmup: 0
+  ActiveMobs: 1
+  CooldownTimer: 1

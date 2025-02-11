@@ -1,0 +1,13 @@
+data:
+- world: world
+  material: GOLD_ORE
+  x: 59.0
+  y: 65.0
+  z: -293.0
+  regenTime: 1738725921600
+- world: world
+  material: IRON_ORE
+  x: 59.0
+  y: 65.0
+  z: -292.0
+  regenTime: 1738725922483

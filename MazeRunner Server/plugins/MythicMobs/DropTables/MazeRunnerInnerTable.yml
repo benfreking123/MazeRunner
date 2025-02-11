@@ -1,0 +1,5 @@
+MazeRunnerInnerTable:
+  Drops:
+    - mythicmob:TankInner 1 50  # 50% chance to spawn ZombieTank
+    - mythicmob:RunnerInner 1 50  # 50% chance to spawn ZombieRunner
+  Chance: 100
