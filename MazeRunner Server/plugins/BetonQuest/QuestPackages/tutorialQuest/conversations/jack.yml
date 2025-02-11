@@ -21,7 +21,7 @@ conversations:
         event: "startPickup2i"
         conditions: "!hasPickup2i,hasPickup1i"
       innerQuest4:
-        text: "Perfect. you are ready to gather Some Resources! look for some some stone to mine around the Maze!"
+        text: "Perfect, you are ready to gather Some Resources! look for some some stone to mine around the Maze!"
         event: "startResource1i"
         conditions: "!hasResource1i,hasPickup2i"
     
