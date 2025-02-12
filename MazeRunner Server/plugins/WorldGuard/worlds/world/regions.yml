@@ -10,6 +10,16 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    thefield:
+        min: {x: 104, y: 64, z: -314}
+        max: {x: 132, y: 93, z: -264}
+        members: {}
+        flags:
+            console-command-on-entry: ['/title %username% title {"text":"The Field","color":"gold","bold":true}']
+            notify-enter: true
+        owners: {}
+        type: cuboid
+        priority: 0
     mob_room_1i:
         min: {x: 41, y: 64, z: -267}
         max: {x: 47, y: 164, z: -260}
@@ -18,3 +28,34 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    coppermine:
+        min: {x: 36, y: 4, z: -432}
+        max: {x: 96, y: 82, z: -402}
+        members: {}
+        flags:
+            console-command-on-entry: ['/title %username% title {"text":"Copper Mine","color":"gold","bold":true}']
+        owners: {}
+        type: cuboid
+        priority: 0
+    theforest:
+        members: {}
+        flags:
+            console-command-on-entry: ['/title %username% title {"text":"The Forest","color":"gold","bold":true}']
+            block-break: allow
+            interact: allow
+            notify-enter: false
+            block-place: allow
+            notify-leave: false
+        owners: {}
+        type: poly2d
+        priority: 0
+        max-y: 106
+        min-y: 51
+        points:
+        - {x: 315, z: -157}
+        - {x: 217, z: -157}
+        - {x: 217, z: -217}
+        - {x: 181, z: -217}
+        - {x: 180, z: -314}
+        - {x: 315, z: -314}
+        - {x: 314, z: -314}

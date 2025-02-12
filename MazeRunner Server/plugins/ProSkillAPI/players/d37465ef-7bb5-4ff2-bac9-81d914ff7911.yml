@@ -1,0 +1,31 @@
+limit: 3
+active: 1
+health: 23.0
+mana: 20.0
+accounts: 
+  acc1: 
+    classes: 
+      baseliner: 
+        level: 1
+        points: 1
+        exp: 0.0
+    skills: 
+      'Poison Darts': 
+        level: 0
+      'Fire Skill Burst': 
+        level: 0
+      Bomb: 
+        level: 0
+      Dash: 
+        level: 0
+    binds: {}
+    'attrib-points': 0
+    attribs: 
+      strength: 2
+      vitality: 3
+    attrstages: 
+      strength: 2
+      vitality: 3
+    'text-layout': {}
+    hunger: 1.0
+    persistent: {}

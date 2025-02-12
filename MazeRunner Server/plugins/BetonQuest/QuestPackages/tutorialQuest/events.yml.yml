@@ -17,9 +17,31 @@ events:
   tagPickup2i: "tag add ReceivedPickup2i"
   rewardPickup2i: "command class exp %player% 100|consumables give %player% small_health_potion 1 1"
 
-  startResource1i: "objective start resource1i"
-  endResource1i: "folder questComplete,tagResource1i,rewardResource1i"
-  tagResource1i: "tag add ReceivedResource1i"
-  rewardResource1i: "command class exp %player% 100"
+  startPickup3i: "objective start pickup3i"
+  endPickup3i: "folder questComplete,tagPickup3i,rewardPickup3i"
+  tagPickup3i: "tag add ReceivedPickup3i"
+  rewardPickup3i: "command class exp %player% 100"
+
+  endFind1i: "folder questComplete,tagFind1i,rewardFind1i"
+  tagFind1i: "tag add ReceivedFind1i"
+  rewardFind1i: "command class exp %player% 100"
+
+  startPickup4i: "objective start pickup4i"
+  endPickup4i: "folder questComplete,tagPickup4i,rewardPickup4i"
+  tagPickup4i: "tag add ReceivedPickup4i"
+  rewardPickup4i: "command class exp %player% 100"
+
+  endFind2i: "folder questComplete,tagFind1i,rewardFind1i"
+  tagFind2i: "tag add ReceivedFind2i"
+  rewardFind2i: "command class exp %player% 100" 
+
+
+  startDiscoversInner: "folder startDiscover1i,startDiscover2i,startDiscover3i"
+  startDiscover1i: "objective start discover1i"
+  endDiscover1i: "tag add ReceivedDiscover1i"
+  startDiscover2i: "objective start discover2i"
+  endDiscover2i: "tag add ReceivedDiscover2i"
+  startDiscover3i: "objective start discover3i"
+  endDiscover3i: "tag add ReceivedDiscover3i"
 
   questComplete: "notify You have finished the Quest!\n Return to Spawn to turn in the Quest!"

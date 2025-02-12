@@ -4,5 +4,11 @@
     "name": "Bishop4302",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d37465ef-7bb5-4ff2-bac9-81d914ff7911",
+    "name": "InfiniteFlame",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

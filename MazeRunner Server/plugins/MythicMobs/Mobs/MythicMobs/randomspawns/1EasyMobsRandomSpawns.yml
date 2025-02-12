@@ -1,0 +1,12 @@
+MummyRandomSpawn:
+  Action: ADD
+  MobType: Mummy
+  Chance: 0.006
+  Priority: 4
+  PositionType: LAND
+  Worlds: world
+  Conditions:
+  - biome{b=desert} true
+  - outside true
+  - raining false
+  - thundering false

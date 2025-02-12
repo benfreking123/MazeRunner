@@ -1,93 +1,215 @@
 menus:
+  discoveryMenu:
+    height: 4
+    title: "&6&DDiscoveries"
+    bind: "openMenuItem"
+    command: "/discoveries"
+    slots:
+      0-4: "filler,filler,filler,filler,filler"
+      5-8: "filler,filler,filler,filler"
+      9: "thefieldActive,thefieldDone"
+      10: "coppermineActive,coppermineDone"
+      11: "theforestActive,theforestDone"
+      27-35: "filler,filler,filler,filler,filler,filler,filler,filler,filler"
+
+    items:
+      thefieldActive:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasDiscover1i"
+        text:
+            - "&7[Discovery] &f&lThe Field"
+        close: true
+      thefieldDone:
+        item: "questDone"
+        amount: 1
+        conditions: "hasDiscover1i"
+        text:
+            - "&2[Discovery] &f&lThe Field"
+            - "&2Discovery completed!"
+        close: false
+      coppermineActive:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasDiscover2i"
+        text:
+            - "&7[Discovery] &f&lCopper Mine"
+        close: true
+      coppermineDone:
+        item: "questDone"
+        amount: 1
+        conditions: "hasDiscover2i"
+        text:
+            - "&2[Discovery] &f&lCopper Mine"
+            - "&2Discovery completed!"
+        close: false
+      theforestActive:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasDiscover3i"
+        text:
+            - "&7[Discovery] &f&lThe Forest"
+        close: true
+      theforestDone:
+        item: "questDone"
+        amount: 1
+        conditions: "hasDiscover3i"
+        text:
+            - "&2[Discovery] &f&lThe Forest"
+            - "&2Discovery completed!"
+        close: false
+      filler: 
+        text: "&a "
+        item: "filler"
   questMenu:
     height: 4
     title: "&6&lQuests"
     bind: "openMenuItem"
     command: "/quests"
     slots:
-      0-3: "filler,filler,filler,filler"
-      4: "reputation"
+      0-4: "filler,filler,filler,filler,filler"
       5-8: "filler,filler,filler,filler"
-      9: "skeletonQuestActive,skeletonQuestDone"
-      10: "goldQuestActive,goldQuestDone"
-      11: "quest2Active,quest2Done"
+      9: "starterQuestActive,starterQuestDone"
+      10: "Quest1Active,Quest1Done"
+      11: "Quest2Active,Quest2Done"
+      12: "Quest3Active,Quest3Done"
+      13: "Quest4Active,Quest4Done"
+      14: "Quest5Active,Quest5Done"
+      15: "Quest6Active,Quest6Done"
+      16: "Quest7Active,Quest7Done"
       27-35: "filler,filler,filler,filler,filler,filler,filler,filler,filler"
 
     items:
-      skeletonQuestActive:
+      starterQuestActive:
         item: "skeletonQuestActiveItem"
         amount: 1
         conditions: "!hasStarterQuest"
         text:
-            - "&7[Quest] &f&lBone ripper"
-            - "&f&oRipp some skeletons off"
-            - "&f&otheir bones to complete"
-            - "&f&othis quest."
-            - "&f&o"
-            - "&eLeft click to locate NPC."
+            - "&7[Quest] &f&lStarter Quest"
         click:
           left: "locationNotify"
         close: true
-      skeletonQuestDone:
+      starterQuestDone:
         item: "questDone"
         amount: 1
         conditions: "hasStarterQuest"
         text:
-            - "&2[Quest] &f&lBone ripper"
-            - "&f&oRipp some skeletons off"
-            - "&f&otheir bones to complete"
-            - "&f&othis quest."
-            - "&f&o"
+            - "&2[Quest] &f&lStarter Quest"
             - "&2Quest completed!"
         close: false
-      goldQuestActive:
-        item: "goldQuestActiveItem"
+      Quest1Active:
+        item: "skeletonQuestActiveItem"
         amount: 1
         conditions: "!hasMobKill1i"
         text:
-            - "&7[Quest] &f&lGold rush"
-            - "&f&oMine some gold"
-            - "&f&oto complete this quest."
-        click:
-          left: "locationNotify"
+            - "&7[Quest] &f&lZombie Hunt"
+            - "Kill 10 Zombies in the Maze"
         close: true
-      goldQuestDone:
+      Quest1Done:
         item: "questDone"
         amount: 1
         conditions: "hasMobKill1i"
         text:
-            - "&2[Quest] &f&lGold rush"
-            - "&f&oMine some gold"
-            - "&f&oto complete this quest."
+            - "&2[Quest] &f&lZombie Hunt"
             - "&2Quest completed!"
         close: false
-      quest2Active:
-        item: "goldQuestActiveItem"
+      Quest2Active:
+        item: "skeletonQuestActiveItem"
         amount: 1
         conditions: "!hasPickup1i"
         text:
-            - "&7[Quest] &f&lGold rush"
-            - "&f&oMine some gold"
-            - "&f&oto complete this quest."
-        click:
-          left: "locationNotify"
+            - "&7[Quest] &f&lGather the Gold"
+            - "Gather 10 Gold Nuggets and Return them to Jack"
+            - ""
+            - "&6Quest from Jack"
         close: true
-      quest2Done:
+      Quest2Done:
         item: "questDone"
         amount: 1
         conditions: "hasPickup1i"
         text:
-            - "&2[Quest] &f&lGold rush"
-            - "&f&oMine some gold"
-            - "&f&oto complete this quest."
+            - "&2[Quest] &f&lGather the Gold"
             - "&2Quest completed!"
         close: false
-      reputation:
-        item: "xpBottle" 
+      Quest3Active:
+        item: "skeletonQuestActiveItem"
         amount: 1
+        conditions: "!hasPickup2i"
         text:
-            - "&2Quest Level: &6&l%point.quest_reputation.amount%"
+            - "&7[Quest] &f&lMining"
+            - "Head into the Maze and gather 16 raw copper and return it to Jack"
         close: true
+      Quest3Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasPickup2i"
+        text:
+            - "&2[Quest] &f&llMining"
+            - "&2Quest completed!"
+        close: false
+      Quest4Active:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasFind1i"
+        text:
+            - "&7[Quest] &f&lRock. Rock. Rock."
+            - "Gather 16 Stone from inside the Maze and Return it to Jack"
+        close: true
+      Quest4Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasFind1i"
+        text:
+            - "&2[Quest] &f&lRock. Rock. Rock."
+            - "&2Quest completed!"
+        close: false
+      Quest5Active:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasPickup3i"
+        text:
+            - "&7[Quest] &f&lThe Wheat Field"
+            - "Gather Wheat and Return it to Jack"
+        close: true
+      Quest5Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasPickup3i"
+        text:
+            - "&2[Quest] &f&lThe Wheat Field"
+            - "&2Quest completed!"
+        close: false
+      Quest6Active:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasPickup4i"
+        text:
+            - "&7[Quest] &f&lFind the Hoe"
+            - "Find a Wooden Hoe drop from a Farmer inside the Maze"
+        close: true
+      Quest6Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasPickup4i"
+        text:
+            - "&2[Quest] &f&lFind the Hoe"
+            - "&2Quest completed!"
+        close: false
+      Quest7Active:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasFind2i"
+        text:
+            - "&7[Quest] &f&lStarter Quest"
+        close: true
+      Quest7Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasFind2i"
+        text:
+            - "&2[Quest] &f&lStarter Quest"
+            - "&2Quest completed!"
+        close: false
       filler: 
         text: "&a "
         item: "filler"

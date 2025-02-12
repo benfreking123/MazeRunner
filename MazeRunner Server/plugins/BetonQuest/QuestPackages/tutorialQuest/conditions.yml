@@ -5,5 +5,15 @@ conditions:
   hasPickup1i: "tag ReceivedPickup1i"
   hasPickup1i_1: "item gold_nugget:3"
   hasPickup2i: "tag ReceivedPickup2i"
-  hasResource1i: "tag ReceivedResource1i"
+  hasPickup2i_1: "item raw_copper:3"
+  hasPickup3i: "tag ReceivedPickup3i"
+  hasPickup3i_1: "item cobblestone:10"
+  hasFind1i: "tag ReceivedFind1i"
+  hasFind1i_1: "item wheat:10"
+  hasPickup4i: "tag ReceivedPickup4i"
+  hasFind2i: "tag ReceivedFind2i"
+
+  hasDiscover1i: "tag ReceivedDiscover1i"
+  hasDiscover2i: "tag ReceivedDiscover2i"
+  hasDiscover3i: "tag ReceivedDiscover3i"
 

@@ -1,5 +1,14 @@
 objectives: 
   mobKill1i: "mobkill ZOMBIE 1 notify events:endMobKill1i"
   pickup1i: "pickup gold_nugget amount:3 notify"
-  pickup2i: "pickup loot_box_common amount:1 notify events:endPickup2i"
-  resource1i: "block stone -16 notify events:endResource1i"
+  pickup2i: "pickup raw_copper amount:3 notify"
+  pickup3i: "pickup cobblestone amount:10 notify"
+  location1i: "location 128;64;-266;world 10 entry notify"
+  pickup4i: "pickup wooden_hoe amount:1 notify events:endPickup4i"  
+  
+  
+  #pickupi: "pickup loot_box_common amount:1 notify events:endPickupi"
+
+  discover1i: "location 128;64;-266;world 10 entry notify events:endDiscover1i"
+  discover2i: "location 91;64;-415;world 10 entry notify events:endDiscover2i"
+  discover3i: "location 188;64;-267;world 10 entry notify events:endDiscover3i"

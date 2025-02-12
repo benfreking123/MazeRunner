@@ -1,0 +1,70 @@
+TorchBugRandomSpawn:
+  Action: ADD
+  Type: TorchBug
+  Chance: 0.2
+  Priority: 19
+  PositionType: LAND
+  Worlds: world
+  Conditions:
+  - biome{b=taiga,plains,savanna,forest,grove,birch_forest,cherry_grove,dark_forest,flower_forest,jungle,sunflower_plains,windswept_hills,windswept_forest,windswept_gravelly_hills,windswept_savanna} true
+  - night true
+  - outside true
+
+TorchBugSwarmRandomSpawn:
+  Action: ADD
+  Type: TorchBug_Swarm
+  Chance: 0.15
+  Worlds: world
+  PositionType: LAND
+  Priority: 17
+  Conditions:
+  - biome{b=taiga,plains,savanna,forest,grove,birch_forest,cherry_grove,dark_forest,flower_forest,jungle,sunflower_plains,windswept_hills,windswept_forest,windswept_gravelly_hills,windswept_savanna} true
+  - night true
+  - outside true
+
+MassiveTorchBugSwarmRandomSpawn:
+  Action: ADD
+  Type: Massive_TorchBug_Swarm
+  Chance: 0.04
+  Priority: 6
+  PositionType: LAND
+  Worlds: world
+  Conditions:
+  - biome{b=taiga,plains,savanna,forest,grove,birch_forest,cherry_grove,dark_forest,flower_forest,jungle,sunflower_plains,windswept_hills,windswept_forest,windswept_gravelly_hills,windswept_savanna} true
+  - night true
+  - outside true
+
+WispRandomSpawn:
+  Action: ADD
+  Type: Wisp
+  Chance: 0.01
+  Priority: 16
+  PositionType: LAND
+  Worlds: world
+  Conditions:
+  - biome{b=taiga,plains,savanna,forest,grove,birch_forest,cherry_grove,dark_forest,flower_forest,jungle,sunflower_plains,windswept_hills,windswept_forest,windswept_gravelly_hills,windswept_savanna} true
+  - night true
+  - outside true
+
+FluffernoxRandomSpawn:
+  Action: ADD
+  Type: Fluffernox
+  Chance: 0.05
+  Priority: 18
+  PositionType: LAND
+  Worlds: world
+  Conditions:
+  - onblock{m=SNOW_BLOCK,SNOW} true
+  - outside true
+  - height{h=>130} true
+
+LuminafoxRandomSpawn:
+  Action: ADD
+  Type: Luminafox
+  Chance: 0.004
+  Priority: 10
+  PositionType: LAND
+  Worlds: world
+  Conditions:
+  - height{h=<12} true
+  - inside true

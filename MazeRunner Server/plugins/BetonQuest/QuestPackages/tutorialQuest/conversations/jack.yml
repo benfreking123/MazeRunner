@@ -1,14 +1,17 @@
 conversations:
   Jack: 
     quester: "Jack" 
-    first: "innerQuest4,innerQuest3,innerQuest2,innerQuest1,firstGreeting" 
-    NPC_options: 
+    first: "innerQuest7,innerQuest6,innerQuest5,innerQuest4,innerQuest3,innerQuest2,innerQuest1,firstGreeting" 
+    NPC_options:
+      discoveries:
+        text: "Find evyerhting "
+        events: "startDiscoversInner"
       firstGreeting:
         text: "Hello and welcome to my town traveler! Nice to see you. Where are you from?"
-        events: "startStarterQuest,tagStarterQuest"
+        events: "startStarterQuest,tagStarterQuest,startDiscoversInner"
         conditions: "!hasStarterQuest" 
       innerQuest1:
-        text: "Now that you have gotten some food, lets start your Adventure!\nGo Into the Maze to Find and Kill 10 Zombies!"
+        text: "Now that you have gotten some food, lets start your Adventure!\nGo Into the Maze to Find and Kill 10 Zombies!\nBring back some Rotten Flesh to show that you got the kill"
         event: "startMobKill1i"
         conditions: "!hasMobKill1i,hasStarterQuest"
       innerQuest2:
@@ -20,13 +23,43 @@ conversations:
         text: "Now that you have found some Loot from the Maze.\nI want you to go look for something a bit more rare, its found in Chest throughout the dungeon."
         event: "startPickup2i"
         conditions: "!hasPickup2i,hasPickup1i"
+        pointer: "playerinnerQuest3"
       innerQuest4:
         text: "Perfect, you are ready to gather Some Resources! look for some some stone to mine around the Maze!"
-        event: "startResource1i"
-        conditions: "!hasResource1i,hasPickup2i"
+        event: "startPickup3i"
+        conditions: "!hasFind1i,hasPickup2i"
+        pointer: "playerinnerQuest4"
+      innerQuest5:
+        text: "We are in need of food, Could you please go find find the Field and gather some wheat for us!"
+        conditions: "!hasPickup3i,hasFind1i"
+        pointer: "playerinnerQuest5"
+      innerQuest6:
+        text: "We need a special item from you, a Wooden Hoe. It can be found by killing farmers"
+        conditions: "!hasPickup4i,hasPickup3i"
+        event: "startPickup4i"
+      innerQuest7:
+        text: "I heard whispers of a land of trees, I have never heard of such a place, Have you ever seen a place like this?"
+        conditions: "!hasFind2i, hasPickup4i"
+        pointer: "playerinnerQuest7"
     
     player_options:
       playerinnerQuest2:
         text: "You got the Nuggets"
         conditions: "hasPickup1i_1"
         event: "endPickup1i"
+      playerinnerQuest3:
+        text: "You got the Copper"
+        conditions: "hasPickup2i_1"
+        event: "endPickup2i"
+      playerinnerQuest4:
+        text: "You got the Nuggets"
+        conditions: "hasPickup3i_1"
+        event: "endPickup3i"
+      playerinnerQuest5:
+        text: "I have found food!"
+        conditions: "hasDiscover1i,hasFind1i_1"
+        event: "endFind1i"
+      playerinnerQuest7:
+        text: "You have Found the Forest? Perfect"
+        conditions: "hasDiscover3i"
+        event: "endFind2i"

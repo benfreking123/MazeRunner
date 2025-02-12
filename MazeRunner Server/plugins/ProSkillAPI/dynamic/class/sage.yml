@@ -39,19 +39,19 @@ sage:
   - 'sage'
   'exp-source': 273
   'combo-starters': 
-    F: 
+    P: 
       inverted: 'true'
       whitelist: []
-    R: 
-      inverted: 'true'
-      whitelist: []
-    LS: 
+    L: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    F: 
       inverted: 'true'
       whitelist: []
     Q: 
@@ -60,6 +60,6 @@ sage:
     S: 
       inverted: 'true'
       whitelist: []
-    L: 
+    R: 
       inverted: 'true'
       whitelist: []

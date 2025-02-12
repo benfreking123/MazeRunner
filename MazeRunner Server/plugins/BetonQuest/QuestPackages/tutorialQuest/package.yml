@@ -4,6 +4,10 @@ npcs:
 items:
   steak: "COOKED_BEEF"
   gold_nugget: "GOLD_NUGGET"
+  raw_copper: "RAW_COPPER"
   health_potion: "POTION name:Small_Health_Potion"
   loot_box_common: "SHULKER_SHELL name:Common_Inner_Loot_Crate"
+  cobblestone: "COBBLESTONE"
+  wheat: "WHEAT"
+  wooden_hoe: "WOODEN_HOE"
   cod: "COD"

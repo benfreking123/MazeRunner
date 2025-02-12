@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.4.41
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739331257463
+  login: 1739328655310
+money: '0'
+last-account-name: InfiniteFlame
+logoutlocation:
+  world: 73aa93cb-58ed-4e14-b40d-b87898d40581
+  world-name: world
+  x: 297.64473854459914
+  y: 62.0
+  z: -284.20173269242724
+  yaw: -101.2567138671875
+  pitch: 24.449359893798828

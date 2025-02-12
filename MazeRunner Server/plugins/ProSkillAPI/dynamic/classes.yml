@@ -38,19 +38,19 @@ baseliner:
   - 'baseliner'
   'exp-source': 273
   'combo-starters': 
-    F: 
+    P: 
       inverted: 'true'
       whitelist: []
-    R: 
-      inverted: 'true'
-      whitelist: []
-    LS: 
+    L: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    F: 
       inverted: 'true'
       whitelist: []
     Q: 
@@ -59,7 +59,7 @@ baseliner:
     S: 
       inverted: 'true'
       whitelist: []
-    L: 
+    R: 
       inverted: 'true'
       whitelist: []
 paladin: 
@@ -97,19 +97,19 @@ paladin:
   - 'paladin'
   'exp-source': 273
   'combo-starters': 
-    F: 
+    P: 
       inverted: 'true'
       whitelist: []
-    R: 
-      inverted: 'true'
-      whitelist: []
-    LS: 
+    L: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    F: 
       inverted: 'true'
       whitelist: []
     Q: 
@@ -118,7 +118,7 @@ paladin:
     S: 
       inverted: 'true'
       whitelist: []
-    L: 
+    R: 
       inverted: 'true'
       whitelist: []
 ranger: 
@@ -156,19 +156,19 @@ ranger:
   - 'ranger'
   'exp-source': 273
   'combo-starters': 
-    F: 
+    P: 
       inverted: 'true'
       whitelist: []
-    R: 
-      inverted: 'true'
-      whitelist: []
-    LS: 
+    L: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    F: 
       inverted: 'true'
       whitelist: []
     Q: 
@@ -177,7 +177,7 @@ ranger:
     S: 
       inverted: 'true'
       whitelist: []
-    L: 
+    R: 
       inverted: 'true'
       whitelist: []
 rouge: 
@@ -215,19 +215,19 @@ rouge:
   - 'rouge'
   'exp-source': 273
   'combo-starters': 
-    F: 
+    P: 
       inverted: 'true'
       whitelist: []
-    R: 
-      inverted: 'true'
-      whitelist: []
-    LS: 
+    L: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    F: 
       inverted: 'true'
       whitelist: []
     Q: 
@@ -236,7 +236,7 @@ rouge:
     S: 
       inverted: 'true'
       whitelist: []
-    L: 
+    R: 
       inverted: 'true'
       whitelist: []
 sage: 
@@ -280,19 +280,19 @@ sage:
   - 'sage'
   'exp-source': 273
   'combo-starters': 
-    F: 
+    P: 
       inverted: 'true'
       whitelist: []
-    R: 
-      inverted: 'true'
-      whitelist: []
-    LS: 
+    L: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    F: 
       inverted: 'true'
       whitelist: []
     Q: 
@@ -301,7 +301,7 @@ sage:
     S: 
       inverted: 'true'
       whitelist: []
-    L: 
+    R: 
       inverted: 'true'
       whitelist: []
 seeker: 
@@ -339,19 +339,19 @@ seeker:
   - 'seeker'
   'exp-source': 273
   'combo-starters': 
-    F: 
+    P: 
       inverted: 'true'
       whitelist: []
-    R: 
-      inverted: 'true'
-      whitelist: []
-    LS: 
+    L: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    F: 
       inverted: 'true'
       whitelist: []
     Q: 
@@ -360,7 +360,7 @@ seeker:
     S: 
       inverted: 'true'
       whitelist: []
-    L: 
+    R: 
       inverted: 'true'
       whitelist: []
 warrior: 
@@ -398,19 +398,19 @@ warrior:
   - 'warrior'
   'exp-source': 273
   'combo-starters': 
-    F: 
+    P: 
       inverted: 'true'
       whitelist: []
-    R: 
-      inverted: 'true'
-      whitelist: []
-    LS: 
+    L: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    F: 
       inverted: 'true'
       whitelist: []
     Q: 
@@ -419,6 +419,6 @@ warrior:
     S: 
       inverted: 'true'
       whitelist: []
-    L: 
+    R: 
       inverted: 'true'
       whitelist: []

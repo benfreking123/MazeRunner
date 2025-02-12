@@ -16,4 +16,4 @@ farm_1i:
   MobsPerSpawn: 2
   Warmup: 0
   ActiveMobs: 1
-  CooldownTimer: 1
+  CooldownTimer: 2
