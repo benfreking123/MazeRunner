@@ -6,9 +6,14 @@ objectives:
   location1i: "location 128;64;-266;world 10 entry notify"
   pickup4i: "pickup wooden_hoe amount:1 notify events:endPickup4i"  
   
-  
+  mobKill2i: "mobkill ZOMBIE 1 name:Cutter_Lvl_-_3 notify events:endMobKill2i"
+  pickup5i: "pickup oak_log amount:100 notify"
+  pickup6i_1: "mobkill SKELETON 1 name:Decayed_Cutter_Lvl_-_4 notify events:endMobKill2i"
+  pickup6i: "pickup oak_log amount:100 notify"
   #pickupi: "pickup loot_box_common amount:1 notify events:endPickupi"
 
   discover1i: "location 128;64;-266;world 10 entry notify events:endDiscover1i"
   discover2i: "location 91;64;-415;world 10 entry notify events:endDiscover2i"
   discover3i: "location 188;64;-267;world 10 entry notify events:endDiscover3i"
+  discover4i: "location 165;64;-369;world 7 entry notify events:endDiscover4i"
+  discover5i: "location 61;64;-282;world 10 entry notify events:endDiscover5i"

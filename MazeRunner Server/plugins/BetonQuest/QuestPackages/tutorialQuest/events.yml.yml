@@ -31,10 +31,36 @@ events:
   tagPickup4i: "tag add ReceivedPickup4i"
   rewardPickup4i: "command class exp %player% 100"
 
-  endFind2i: "folder questComplete,tagFind1i,rewardFind1i"
+  endFind2i: "folder questComplete,tagFind2i,rewardFind2i"
   tagFind2i: "tag add ReceivedFind2i"
   rewardFind2i: "command class exp %player% 100" 
 
+  endTalk1i_1: "tag add ReceivedTalk1i_1"
+  endTalk1i: "folder questComplete,tagTalk1i,rewardTalk1i"
+  tagTalk1i: "tag add ReceivedTalk1i"
+  rewardTalk1i: "command class exp %player% 100" 
+
+  startMobKill2i: "objective start mobKill2i"
+  endMobKill2i: "folder questComplete,tagMobKill2i,rewardMobKill2i"
+  tagMobKill2i: "tag add ReceivedMobKill2i"
+  rewardMobKill2i: "command class exp %player% 100"
+
+  startPickup5i: "objective start pickup5i"
+  endPickup5i: "folder questComplete,tagPickup5i,rewardPickup5i"
+  tagPickup5i: "tag add ReceivedPickup5i"
+  rewardPickup5i: "command class exp %player% 100|class ap %player% 5"
+
+  startSimonQuestE: "folder startPickup6i,startPickup6i_1"
+  startPickup6i: "objective start pickup6i"
+  startPickup6i_1: "objective start pickup6i_1"
+  endPickup6i: "folder questComplete,tagPickup6i,rewardPickup6i"
+  tagPickup6i: "tag add ReceivedPickup6i"
+  rewardPickup6i: "command class exp %player% 100|class ap %player% 6"
+
+
+  endSimonComplete: "folder questComplete,tagTalk1i,rewardTalk1i"
+  tagSimonComplete: "tag add ReceivedSimonComplete"
+  rewardSimonComplete: "command class exp %player% 100" 
 
   startDiscoversInner: "folder startDiscover1i,startDiscover2i,startDiscover3i"
   startDiscover1i: "objective start discover1i"
@@ -43,5 +69,9 @@ events:
   endDiscover2i: "tag add ReceivedDiscover2i"
   startDiscover3i: "objective start discover3i"
   endDiscover3i: "tag add ReceivedDiscover3i"
+  startDiscover4i: "objective start discover4i"
+  endDiscover4i: "tag add ReceivedDiscover4i"
+  startDiscover5i: "objective start discover5i"
+  endDiscover5i: "tag add ReceivedDiscover5i"
 
   questComplete: "notify You have finished the Quest!\n Return to Spawn to turn in the Quest!"

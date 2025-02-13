@@ -1,7 +1,42 @@
 conversations:
+  Simon: 
+    quester: "Simon" 
+    first: "SimonComplete,simonQuestE,simonQuest2,simonQuest1,firstGreeting" 
+    NPC_options:
+      firstGreeting:
+        text: "A Stranger! I haven't seen another person in years! Welcome to my home."
+        conditions: "!hasTalk1i"
+        events: "endTalk1i_1"
+      simonQuest1:
+        text: "Thanks for your help, Can you clear out some of the Cutters near my house, they are scarying me"
+        event: "startMobKill1i"
+        conditions: "!hasMobKill2i, hasTalk1i"
+      simonQuest2:
+        text: "My house is all beat up and broken, I could use some help fixing her up.\nWould you mine gathering some wood for me?"
+        event: "startMobKill1i"
+        conditions: "!hasPickup5i,hasMobKill2i"
+        pointer: "playerSimonQuest2"
+      simonQuestE:
+        text: "Ok I'll tell you a Secret. There is a special type of Cutter that I sometimes see in the woods. They are all bone!!!\nI know sometimes they have a shiny blue key on them"
+        event: "startSimonQuestE"
+        conditions: "!hasPickup6i,hasPickup5i"
+        pointer: "playerSimonQuestE"
+      SimonComplete:
+        text: "A Stranger! I haven't seen another person in years! Welcome to my home."
+        conditions: "hasPickup6i"
+        events: "endSimonComplete"
+    player_options:
+      playerSimonQuest2:
+        text: "You got the Nuggets"
+        conditions: "hasPickup1i_1"
+        event: "endPickup5i"
+      playerSimonQuestE:
+        text: "I Found the key!"
+        conditions: "hasPickup1i_1"
+        event: "endPickup5i"
   Jack: 
     quester: "Jack" 
-    first: "innerQuest7,innerQuest6,innerQuest5,innerQuest4,innerQuest3,innerQuest2,innerQuest1,firstGreeting" 
+    first: "innerQuest9,innerQuest8,innerQuest7,innerQuest6,innerQuest5,innerQuest4,innerQuest3,innerQuest2,innerQuest1,firstGreeting" 
     NPC_options:
       discoveries:
         text: "Find evyerhting "
@@ -11,7 +46,7 @@ conversations:
         events: "startStarterQuest,tagStarterQuest,startDiscoversInner"
         conditions: "!hasStarterQuest" 
       innerQuest1:
-        text: "Now that you have gotten some food, lets start your Adventure!\nGo Into the Maze to Find and Kill 10 Zombies!\nBring back some Rotten Flesh to show that you got the kill"
+        text: "Now that you have gotten some food, lets start your Adventure!\nGo Into the Maze to Find and Kill 10 Zombies!"
         event: "startMobKill1i"
         conditions: "!hasMobKill1i,hasStarterQuest"
       innerQuest2:
@@ -41,6 +76,14 @@ conversations:
         text: "I heard whispers of a land of trees, I have never heard of such a place, Have you ever seen a place like this?"
         conditions: "!hasFind2i, hasPickup4i"
         pointer: "playerinnerQuest7"
+      innerQuest8:
+        text: "You should explore the Forest, see if you can find anything."
+        conditions: "!hasTalk1i, hasFind2i"
+        pointer: "playerinnerQuest8"
+      innerQuest9:
+        text: "Well Go Assist Simon, Always can use a friend in the Maze"
+        conditions: "!hasSimonComplete, hasTalk1i"
+        pointer: "playerinnerQuest9"
     
     player_options:
       playerinnerQuest2:
@@ -63,3 +106,10 @@ conversations:
         text: "You have Found the Forest? Perfect"
         conditions: "hasDiscover3i"
         event: "endFind2i"
+      playerinnerQuest8:
+        text: "I have found Simon in the Forest"
+        conditions: "hasTalk1i_1"
+        event: "endTalk1i"
+      playerinnerQuest9:
+        text: "I have helped Simon with all of his quest"
+        conditions: "hasSimonComplete"

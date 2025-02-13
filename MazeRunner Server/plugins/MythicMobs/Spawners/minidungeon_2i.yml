@@ -1,0 +1,12 @@
+minidungeon_2i:
+  MobName: CursedStatue
+  World: world
+  X: 75
+  Y: 71
+  Z: -301
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '3'
+  MaxMobs: '1'
+  Cooldown: 15
+  Warmup: 0

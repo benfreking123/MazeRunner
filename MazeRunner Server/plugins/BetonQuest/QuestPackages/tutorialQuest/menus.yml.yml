@@ -10,6 +10,8 @@ menus:
       9: "thefieldActive,thefieldDone"
       10: "coppermineActive,coppermineDone"
       11: "theforestActive,theforestDone"
+      12: "cryptActive,cryptDone"
+      13: "stonefieldActive,stonefieldDone"
       27-35: "filler,filler,filler,filler,filler,filler,filler,filler,filler"
 
     items:
@@ -58,11 +60,41 @@ menus:
             - "&2[Discovery] &f&lThe Forest"
             - "&2Discovery completed!"
         close: false
+      cryptActive:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasDiscover4i"
+        text:
+            - "&7[Discovery] &f&lThe Crypt Portal"
+        close: true
+      cryptDone:
+        item: "questDone"
+        amount: 1
+        conditions: "hasDiscover4i"
+        text:
+            - "&2[Discovery] &f&lThe Crypt Portal"
+            - "&2Discovery completed!"
+        close: false
+      stonefieldActive:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasDiscover5i"
+        text:
+            - "&7[Discovery] &f&lStone Field"
+        close: true
+      stonefieldDone:
+        item: "questDone"
+        amount: 1
+        conditions: "hasDiscover5i"
+        text:
+            - "&2[Discovery] &f&lStone Field"
+            - "&2Discovery completed!"
+        close: false
       filler: 
         text: "&a "
         item: "filler"
   questMenu:
-    height: 4
+    height: 5
     title: "&6&lQuests"
     bind: "openMenuItem"
     command: "/quests"
@@ -77,7 +109,13 @@ menus:
       14: "Quest5Active,Quest5Done"
       15: "Quest6Active,Quest6Done"
       16: "Quest7Active,Quest7Done"
-      27-35: "filler,filler,filler,filler,filler,filler,filler,filler,filler"
+      17: "Quest8Active,Quest8Done"
+      18: "Quest9Active,Quest9Done"
+      27: "Simon0Active,Simon0Done"
+      28: "Simon1Active,Simon1Done"
+      29: "Simon2Active,Simon2Done"
+      30: "SimonEActive,SimonEDone"
+      36-44: "filler,filler,filler,filler,filler,filler,filler,filler,filler"
 
     items:
       starterQuestActive:
@@ -200,14 +238,104 @@ menus:
         amount: 1
         conditions: "!hasFind2i"
         text:
-            - "&7[Quest] &f&lStarter Quest"
+            - "&7[Quest] &f&lFind the Forest"
         close: true
       Quest7Done:
         item: "questDone"
         amount: 1
         conditions: "hasFind2i"
         text:
-            - "&2[Quest] &f&lStarter Quest"
+            - "&2[Quest] &f&lFind the Forest"
+            - "&2Quest completed!"
+        close: false
+      Quest8Active:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasFind2i"
+        text:
+            - "&7[Quest] &f&lNew Friend"
+        close: true
+      Quest8Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasTalk1i"
+        text:
+            - "&2[Quest] &f&lNew Friend"
+            - "&2Quest completed!"
+        close: false
+      Quest9Active:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasTalk1i"
+        text:
+            - "&7[Quest] &f&lHelping Simon"
+        close: true
+      Quest9Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasSimonComplete"
+        text:
+            - "&2[Quest] &f&lHelping Simon"
+            - "&2Quest completed!"
+        close: false
+      Simon0Active:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasSimonComplete"
+        text:
+            - "&7[Quest] &f&lFirst Greatings"
+        close: true
+      Simon0Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasFind2i"
+        text:
+            - "&2[Quest] &f&lFirst Greatings"
+            - "&2Quest completed!"
+        close: false
+      Simon1Active:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasFind2i"
+        text:
+            - "&7[Quest] &f&lCutting Down Cutters"
+        close: true
+      Simon1Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasFind2i"
+        text:
+            - "&2[Quest] &f&lCutting Down Cutters"
+            - "&2Quest completed!"
+        close: false
+      Simon2Active:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasFind2i"
+        text:
+            - "&7[Quest] &f&lChop. Chop. Chop."
+        close: true
+      Simon2Done:
+        item: "questDone"
+        amount: 1
+        conditions: "hasFind2i"
+        text:
+            - "&2[Quest] &f&lChop. Chop. Chop."
+            - "&2Quest completed!"
+        close: false
+      SimonEActive:
+        item: "skeletonQuestActiveItem"
+        amount: 1
+        conditions: "!hasFind2i"
+        text:
+            - "&7[Quest] &f&lThe Key"
+        close: true
+      SimonEDone:
+        item: "questDone"
+        amount: 1
+        conditions: "hasFind2i"
+        text:
+            - "&2[Quest] &f&lThe Key"
             - "&2Quest completed!"
         close: false
       filler: 

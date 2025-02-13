@@ -15,5 +15,5 @@ mob_room_3i:
   LeashRange: 25
   MobsPerSpawn: 2
   Warmup: 0
-  ActiveMobs: 2
+  ActiveMobs: 1
   CooldownTimer: 1

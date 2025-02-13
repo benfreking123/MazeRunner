@@ -82,49 +82,100 @@ TosserInner:
         PreventRandomItems: true
     Skills:
     - skill{s=RockToss} @target ~onTimer:5
+CursedStatue:
+  Type: SKELETON
+  Display: 'Cursed Statue'
+  Health: 40
+  Damage: 5
+  Equipment:
+  - PLAYER_HEAD{skullTexture=eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMwZWVjMGUwY2JiNDQ1MTE0MDcxYzlmZTAyMzdjMTZmY2MzMGU4OWFkOGU3OTQ1ZWVmMTcxZDc5NTJiMTMyZSJ9fX0=} HEAD
+  - iron_chestplate CHEST
+  - iron_leggings LEGS
+  - iron_boots FEET
+  Disguise: armorstand
+  Options:
+    MovementSpeed: 0
+    PreventSunburn: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+CutterInner:
+  Type: ZOMBIE
+  Display: '&5Cutter Lvl - <caster.level>'
+  Health: 20
+  Damage: 5
+  Equipment:
+  - STONE_AXE HAND
+  - LEATHER_HELMET{color=yellow} HEAD
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  - OAK_LOG 1to4 0.5
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+DecayedCutterInner:
+  Type: SKELETON
+  Display: '&5Decayed Cutter Lvl - <caster.level>'
+  Health: 35
+  Damage: 5
+  Equipment:
+  - STONE_AXE HAND
+  - LEATHER_HELMET{color=yellow} HEAD
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  - OAK_LOG 1to4 0.5
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  AIGoalSelectors:
+  - 1 meleeattack
+  - 3 lookatplayers
+  AITargetSelectors:
+  - players
 GoblinTosserInner:
-    Type: BABY_ZOMBIE
-    Display: '&9Goblin Tosser Lvl - <caster.level>'
-    Health: 20
-    Damage: 6
-    Drops:
-    - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
-    Equipment:
-    - STONE HAND
-    - AIR OFFHAND
-    AIGoalSelectors:
-    - 0 clear
-    - 1 fleeplayers
-    - 2 float
-    - 3 movetowardstarget
-    - 4 lookatplayers
-    - 5 randomstroll
-    Options:
-        AlwaysShowName: true
-        FollowRange: 15
-        MovementSpeed: 0.3
-        PreventOtherDrops: true
-        PreventItemPickup: true
-        PreventRandomItems: true
-    Skills:
-    - skill{s=RockToss} @target ~onTimer:5
+  Type: BABY_ZOMBIE
+  Display: '&9Goblin Tosser Lvl - <caster.level>'
+  Health: 20
+  Damage: 6
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  Equipment:
+  - STONE HAND
+  - AIR OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  - 2 float
+  - 3 movetowardstarget
+  - 4 lookatplayers
+  - 5 randomstroll
+  Options:
+      AlwaysShowName: true
+      FollowRange: 15
+      MovementSpeed: 0.3
+      PreventOtherDrops: true
+      PreventItemPickup: true
+      PreventRandomItems: true
+  Skills:
+  - skill{s=RockToss} @target ~onTimer:5
 ArcherInner:
-    Type: SKELETON
-    Display: '&9Archer Lvl - <caster.level>'
-    Health: 20
-    Damage: 6
-    Drops:
-    - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
-    Options:
-        AlwaysShowName: true
-        FollowRange: 15
-        MovementSpeed: 0.3
-        PreventOtherDrops: false
-        PreventItemPickup: true
-    Skills: ArcherI
-    - shoot{type=ARROW;velocity=10;damage=6} @Target ~onTimer:3
-    Modules:
-        ThreatTable: true
+  Type: SKELETON
+  Display: '&9Archer Lvl - <caster.level>'
+  Health: 20
+  Damage: 6
+  Drops:
+  - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  Options:
+      AlwaysShowName: true
+      FollowRange: 15
+      MovementSpeed: 0.3
+      PreventOtherDrops: false
+      PreventItemPickup: true
+  Skills:
+  - shoot{type=ARROW;velocity=10;damage=6} @Target ~onTimer:3
+  Modules:
+      ThreatTable: true
+
 SkeletonKing:
   Type: WITHER_SKELETON
   Display: '&6Skeleton King'
@@ -136,11 +187,6 @@ SkeletonKing:
   - speak{m="Ahahahahah! Die, <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill
   - skill{s=SummonSkeletons} @self 0.1
   - skill{s=SmashAttack} @target 0.2
-  Equipment:
-  - KingsCrown HEAD
-  - SkeletonKingSword HAND
-  Drops:
-  - SkeletonKingDrops
   Options:
     AlwaysShowName: true
     MovementSpeed: 0.2

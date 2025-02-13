@@ -1,12 +1,15 @@
 npcs:
   '11': "Jack"
+  '14': "Simon"
 
 items:
   steak: "COOKED_BEEF"
+  oak_log: "OAK_LOG"
   gold_nugget: "GOLD_NUGGET"
   raw_copper: "RAW_COPPER"
   health_potion: "POTION name:Small_Health_Potion"
   loot_box_common: "SHULKER_SHELL name:Common_Inner_Loot_Crate"
+  crypt_key: "HEART_OF_THE_SEA name:Crypt_Key"
   cobblestone: "COBBLESTONE"
   wheat: "WHEAT"
   wooden_hoe: "WOODEN_HOE"

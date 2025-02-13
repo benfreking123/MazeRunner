@@ -1,6 +1,6 @@
-limit: 3
+limit: 10
 active: 2
-health: 11.999998092651367
+health: 29.0
 mana: 29.0
 accounts: 
   acc1: 
@@ -49,7 +49,7 @@ accounts:
       Dash: 
         level: 0
     binds: {}
-    'attrib-points': 32
+    'attrib-points': 33
     attribs: {}
     attrstages: {}
     'text-layout': {}

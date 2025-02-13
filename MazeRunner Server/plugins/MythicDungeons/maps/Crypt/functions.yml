@@ -45,6 +45,25 @@ Functions:
   maxCount: 1
   yaw: 0.0
 - ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: ZombieInner
+  delay: 0
+  levelString: '5'
+  interval: 0
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 62.0
+    y: -53.0
+    z: 30.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDungeonStart
+    allowRetrigger: false
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
   mob: SkeletonKing
   delay: 0
   levelString: '5'

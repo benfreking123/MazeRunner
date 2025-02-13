@@ -1,0 +1,19 @@
+theforest_1i:
+  MobName: 95%CutterInner,5%DecayedCutterInner
+  World: world
+  X: 236
+  Y: 65
+  Z: -274
+  Yaw: 0.0
+  Pitch: 0.0
+  MaxMobs: 6
+  MobLevel: '3'
+  Radius: 50
+  Cooldown: 30
+  CheckForPlayers: true
+  ActivationRange: 100
+  LeashRange: 100
+  MobsPerSpawn: 4
+  Warmup: 0
+  ActiveMobs: 1
+  CooldownTimer: 9

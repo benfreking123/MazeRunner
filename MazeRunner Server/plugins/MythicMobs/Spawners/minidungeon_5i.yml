@@ -1,0 +1,12 @@
+minidungeon_5i:
+  MobName: ArcherInner
+  World: world
+  X: 70
+  Y: 69
+  Z: -252
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '3'
+  MaxMobs: '3'
+  Cooldown: 15
+  Warmup: 0

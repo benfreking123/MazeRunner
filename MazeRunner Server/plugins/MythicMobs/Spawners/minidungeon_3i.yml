@@ -1,0 +1,12 @@
+minidungeon_3i:
+  MobName: ZombieInner
+  World: world
+  X: 80
+  Y: 64
+  Z: -268
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '3'
+  MaxMobs: '3'
+  Cooldown: 15
+  Warmup: 0

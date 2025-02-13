@@ -28,6 +28,24 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    crypt_entrance:
+        min: {x: 161, y: 64, z: -374}
+        max: {x: 168, y: 76, z: -364}
+        members: {}
+        flags:
+            console-command-on-entry: ['/title %username% title {"text":"The Crypt","color":"gold","bold":true}']
+        owners: {}
+        type: cuboid
+        priority: 0
+    stonefield:
+        min: {x: 53, y: 62, z: -315}
+        max: {x: 69, y: 79, z: -281}
+        members: {}
+        flags:
+            console-command-on-entry: ['/title %username% title {"text":"Stone Field","color":"gold","bold":true}']
+        owners: {}
+        type: cuboid
+        priority: 0
     coppermine:
         min: {x: 36, y: 4, z: -432}
         max: {x: 96, y: 82, z: -402}

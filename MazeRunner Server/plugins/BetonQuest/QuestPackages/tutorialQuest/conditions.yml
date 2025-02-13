@@ -12,8 +12,19 @@ conditions:
   hasFind1i_1: "item wheat:10"
   hasPickup4i: "tag ReceivedPickup4i"
   hasFind2i: "tag ReceivedFind2i"
+  hasTalk1i: "tag ReceivedTalk1i"
+  hasTalk1i_1: "tag ReceivedTalk1i_1"
+
+  hasMobKill2i: "tag ReceivedMobKill2i"
+  hasPickup5i: "tag ReceivedPickup5i"
+  hasPickup5i_1: "item oak_log:100"
+  hasPickup6i: "tag ReceivedPickup6i"
+  hasPickup6i_1: "item crypt_key:1"
+  hasSimonComplete: "tag ReceivedSimionComplete"
 
   hasDiscover1i: "tag ReceivedDiscover1i"
   hasDiscover2i: "tag ReceivedDiscover2i"
   hasDiscover3i: "tag ReceivedDiscover3i"
+  hasDiscover4i: "tag ReceivedDiscover4i"
+  hasDiscover5i: "tag ReceivedDiscover5i"
 
