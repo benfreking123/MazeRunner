@@ -37,13 +37,13 @@ baseliner:
   - 'baseliner'
   'exp-source': 273
   'combo-starters': 
-    RS: 
-      inverted: 'true'
-      whitelist: []
-    Q: 
+    LS: 
       inverted: 'true'
       whitelist: []
     P: 
+      inverted: 'true'
+      whitelist: []
+    L: 
       inverted: 'true'
       whitelist: []
     S: 
@@ -52,12 +52,12 @@ baseliner:
     R: 
       inverted: 'true'
       whitelist: []
+    RS: 
+      inverted: 'true'
+      whitelist: []
+    Q: 
+      inverted: 'true'
+      whitelist: []
     F: 
-      inverted: 'true'
-      whitelist: []
-    LS: 
-      inverted: 'true'
-      whitelist: []
-    L: 
       inverted: 'true'
       whitelist: []

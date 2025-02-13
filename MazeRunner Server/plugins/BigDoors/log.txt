@@ -156,3 +156,6 @@
 [12-02-2025 18:05:56] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
 [12-02-2025 18:05:56] Successfully hooked into "WorldGuard"!
 [12-02-2025 18:05:56] Successfully hooked into "GriefPrevention"!
+[12-02-2025 22:04:20] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[12-02-2025 22:04:20] Successfully hooked into "WorldGuard"!
+[12-02-2025 22:04:20] Successfully hooked into "GriefPrevention"!

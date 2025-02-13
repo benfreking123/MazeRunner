@@ -16,4 +16,4 @@ theforest_3i:
   MobsPerSpawn: 2
   Warmup: 0
   ActiveMobs: 1
-  CooldownTimer: 15
+  CooldownTimer: 27
