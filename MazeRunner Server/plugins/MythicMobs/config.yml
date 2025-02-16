@@ -77,7 +77,7 @@ Configuration:
   Skills:
     
   RandomSpawning:
-    DisableVanillaSpawns: false
+    DisableVanillaSpawns: true
     GenerateSpawnPoints: false
     MaxMobsMultiplier: 1.0
     SpawnRadiusPerPlayerY: 32

@@ -1,0 +1,602 @@
+loaded: 'true'
+Dart: 
+  name: 'Dart'
+  type: 'Projectile'
+  'max-level': 100
+  'skill-req-lvl': 0
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '0'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '5'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'ARROW'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Item: 
+          type: 'condition'
+          data: 
+            'icon-key': ''
+            'check-mat': 'true'
+            material: 'Bow'
+            'check-data': 'false'
+            'check-custom-data': 'false'
+            'check-lore': 'false'
+            'check-name': 'false'
+            regex: 'false'
+          preview: 
+            enabled: 'false'
+          children: 
+            Projectile: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                projectile: 'Arrow'
+                flaming: 'false'
+                cost: 'None'
+                'override-item': 'false'
+                homing: 'false'
+                'velocity-base': '3'
+                'velocity-scale': '0'
+                'lifespan-base': '5'
+                'lifespan-scale': '0'
+                'distance-base': '100'
+                'distance-scale': '0'
+                'on-expire': 'false'
+                spread: 'Cone'
+                'amount-base': '1'
+                'amount-scale': '0'
+                'angle-base': '30'
+                'angle-scale': '0'
+                'forward-base': '0'
+                'forward-scale': '0'
+                'upward-base': '0'
+                'upward-scale': '0'
+                'right-base': '0'
+                'right-scale': '0'
+                particle: 'Block dust'
+                material: 'Blackstone'
+                arrangement: 'Sphere'
+                'radius-base': '1'
+                'radius-scale': '0'
+                'particles-base': '1'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '0.1'
+                'use-effect': 'false'
+              preview: 
+                enabled: 'false'
+                period: '5'
+                'per-target': 'false'
+                path: 'false'
+              children: 
+                Damage: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    type: 'Damage'
+                    'value-base': '3'
+                    'value-scale': '1'
+                    true: 'false'
+                    classifier: 'DIVINITY_projectile'
+                    knockback: 'true'
+                    'ignore-divinity': 'false'
+                    cause: 'Custom'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+Bomb: 
+  name: 'Bomb'
+  type: 'Fire'
+  'max-level': 100
+  'skill-req-lvl': 0
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '0'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '5'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'LINGERING_POTION'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        'Potion Projectile': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            color: '#000000'
+            group: 'Enemy'
+            flaming: 'false'
+            linger: 'false'
+            homing: 'false'
+            'velocity-base': '1'
+            'velocity-scale': '0'
+            'lifespan-base': '2'
+            'lifespan-scale': '0'
+            'distance-base': '100'
+            'distance-scale': '0'
+            'on-expire': 'true'
+            spread: 'Cone'
+            'amount-base': '1'
+            'amount-scale': '0'
+            'angle-base': '30'
+            'angle-scale': '0'
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '0'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+            particle: 'Block dust'
+            material: 'Stone'
+            arrangement: 'Sphere'
+            'radius-base': '0.1'
+            'radius-scale': '0'
+            'particles-base': '20'
+            'particles-scale': '0'
+            'visible-radius': '25'
+            dx: '0'
+            dy: '0'
+            dz: '0'
+            amount: '1'
+            speed: '0.1'
+            'use-effect': 'false'
+          preview: 
+            enabled: 'false'
+            period: '5'
+            'per-target': 'false'
+            path: 'false'
+          children: 
+            Particle: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                particle: 'Explosion large'
+                arrangement: 'Sphere'
+                'radius-base': '1'
+                'radius-scale': '0'
+                'particles-base': '9'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '0.1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Area: 
+              type: 'target'
+              data: 
+                'icon-key': ''
+                'radius-base': '3'
+                'radius-scale': '0'
+                group: 'Enemy'
+                wall: 'false'
+                invulnerable: 'false'
+                caster: 'False'
+                'max-base': '99'
+                'max-scale': '0'
+                random: 'false'
+              preview: 
+                enabled: 'false'
+                'per-target': 'false'
+                circle: 'false'
+                sphere: 'false'
+              children: 
+                Damage: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    type: 'Damage'
+                    'value-base': '3'
+                    'value-scale': '1'
+                    true: 'false'
+                    classifier: 'DIVINITY_projectile'
+                    knockback: 'true'
+                    'ignore-divinity': 'false'
+                    cause: 'Custom'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+Strike: 
+  name: 'Strike'
+  type: 'Melee'
+  'max-level': 100
+  'skill-req-lvl': 0
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '0'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '5'
+    'mana-scale': '1'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'IRON_SWORD'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Cone: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'range-base': '3'
+            'range-scale': '0'
+            'angle-base': '90'
+            'angle-scale': '0'
+            'rotation-base': '0'
+            'rotation-scale': '0'
+            'reset-y': 'true'
+            group: 'Enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'False'
+            'max-base': '99'
+            'max-scale': '0'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+            triangle: 'false'
+            cone: 'false'
+          children: 
+            Damage: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                type: 'Damage'
+                'value-base': '3'
+                'value-scale': '1'
+                true: 'false'
+                classifier: 'DIVINITY_melee'
+                knockback: 'true'
+                'ignore-divinity': 'false'
+                cause: 'Custom'
+              preview: 
+                enabled: 'false'
+              children: {}
+        'Particle Animation': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            steps: '5'
+            frequency: '0.05'
+            angle: '-90'
+            start: '0'
+            'duration-base': '0.25'
+            'duration-scale': '0'
+            'h-translation-base': '1'
+            'h-translation-scale': '0'
+            'v-translation-base': '-1'
+            'v-translation-scale': '0'
+            'h-cycles': '1'
+            'v-cycles': '1'
+            particle: 'Block crack'
+            material: 'Netherrack'
+            arrangement: 'Sphere'
+            'radius-base': '0.25'
+            'radius-scale': '0'
+            'particles-base': '5'
+            'particles-scale': '0'
+            'visible-radius': '25'
+            dx: '0'
+            dy: '0'
+            dz: '0'
+            amount: '1'
+            speed: '0.1'
+            forward: '0.5'
+            upward: '1.5'
+            right: '-0.5'
+            '-with-rotation': 'true'
+          preview: 
+            enabled: 'false'
+          children: {}
+Dash: 
+  name: 'Dash'
+  type: 'Movement'
+  'max-level': 100
+  'skill-req-lvl': 0
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '0'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '5'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'FEATHER'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        'Value Attribute': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            key: 'movespeed'
+            attribute: 'movespeed'
+            save: 'false'
+          preview: 
+            enabled: 'false'
+          children: {}
+        'Value Add': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            key: 'movespeed'
+            'amount-base': '1'
+            'amount-scale': '0.25'
+            save: 'false'
+          preview: 
+            enabled: 'false'
+          children: {}
+        Launch: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            relative: 'Caster'
+            'reset-y': 'false'
+            'forward-base': 'movespeed'
+            'forward-scale': '0'
+            'upward-base': '0.15'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}
+'Energy Bolt': 
+  name: 'Energy Bolt'
+  type: 'Energy'
+  'max-level': 100
+  'skill-req-lvl': 0
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '0'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '5'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'LIGHT_GRAY_DYE'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Projectile: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            projectile: 'Snowball'
+            flaming: 'false'
+            cost: 'None'
+            'override-item': 'false'
+            homing: 'false'
+            'velocity-base': '2.5'
+            'velocity-scale': '0'
+            'lifespan-base': '3.5'
+            'lifespan-scale': '0'
+            'distance-base': '100'
+            'distance-scale': '0'
+            'on-expire': 'true'
+            spread: 'Cone'
+            'amount-base': '1'
+            'amount-scale': '0'
+            'angle-base': '0'
+            'angle-scale': '0'
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '0'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+            particle: 'Snow shovel'
+            arrangement: 'Circle'
+            direction: 'XY'
+            'radius-base': '1'
+            'radius-scale': '0'
+            'particles-base': '5'
+            'particles-scale': '0'
+            'visible-radius': '25'
+            dx: '0'
+            dy: '0'
+            dz: '0'
+            amount: '2'
+            speed: '0.1'
+            'use-effect': 'false'
+          preview: 
+            enabled: 'false'
+            period: '5'
+            'per-target': 'false'
+            path: 'false'
+          children: 
+            Area: 
+              type: 'target'
+              data: 
+                'icon-key': ''
+                'radius-base': '1'
+                'radius-scale': '0'
+                group: 'Enemy'
+                wall: 'false'
+                invulnerable: 'false'
+                caster: 'False'
+                'max-base': '99'
+                'max-scale': '0'
+                random: 'false'
+              preview: 
+                enabled: 'false'
+                'per-target': 'false'
+                circle: 'false'
+                sphere: 'false'
+              children: 
+                Damage: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    type: 'Damage'
+                    'value-base': '3'
+                    'value-scale': '1'
+                    true: 'false'
+                    classifier: 'DIVINITY_energy'
+                    knockback: 'true'
+                    'ignore-divinity': 'false'
+                    cause: 'Custom'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+                Particle: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    particle: 'Snow shovel'
+                    arrangement: 'Circle'
+                    direction: 'XZ'
+                    'radius-base': '1.5'
+                    'radius-scale': '0'
+                    'particles-base': '20'
+                    'particles-scale': '0'
+                    'visible-radius': '25'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    amount: '1'
+                    speed: '0.1'
+                    forward: '0'
+                    upward: '0.5'
+                    right: '0'
+                  preview: 
+                    enabled: 'false'
+                  children: {}

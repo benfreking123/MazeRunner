@@ -15,5 +15,5 @@ theforest_1i:
   LeashRange: 100
   MobsPerSpawn: 4
   Warmup: 0
-  ActiveMobs: 1
-  CooldownTimer: 18
+  ActiveMobs: 5
+  CooldownTimer: 1

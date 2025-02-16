@@ -1,0 +1,46 @@
+ATTRIBUTES: 
+  rows: 5
+  pages: 1
+  slots: 
+    1: 
+      projectile_defense: 41
+      skill_damage: 18
+      strength: 0
+      energy_damage: 21
+      energy_defense: 40
+      intelligence: 4
+      wisdom: 5
+      melee_defense: 39
+      dexterity: 2
+      projectile_damage: 19
+      physical_defense: 38
+      armor: 36
+      mana: 17
+      melee_damage: 20
+      man_mod: 8
+      vitality: 1
+      cooldown: 26
+      armor_mod: 37
+      agility: 3
+CLASS_DETAILS: 
+  rows: 3
+  pages: 1
+  slots: 
+    1: 
+      class: 0
+CLASS_SELECTION: 
+  rows: 3
+  pages: 1
+  slots: 
+    1: 
+      baseliner: 0
+stbaseliner: 
+  rows: 1
+  pages: 1
+  slots: 
+    1: 
+      dart: 1
+      'energy bolt': 3
+      strike: 4
+      bomb: 0
+      dash: 2

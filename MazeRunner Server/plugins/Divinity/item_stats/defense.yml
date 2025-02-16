@@ -1,0 +1,56 @@
+melee:
+  priority: 100
+  name: Melee Defense
+  format: '&6▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - physical
+  protection-factor: 0.8
+projectile:
+  priority: 10
+  name: Projectile Defense
+  format: '&d▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - magical
+  protection-factor: 0.8
+lightning:
+  priority: 10
+  name: Lightning Defense
+  format: '&d▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - magical
+  protection-factor: 0.8
+fire:
+  priority: 10
+  name: Fire Defense
+  format: '&d▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - magical
+  protection-factor: 0.8
+ice:
+  priority: 10
+  name: Ice Defense
+  format: '&d▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - magical
+  protection-factor: 0.8
+energy:
+  priority: 10
+  name: Energy Defense
+  format: '&d▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - magical
+  protection-factor: 0.8
+poison:
+  priority: 10
+  name: Poison Defense
+  format: '&d▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - magical
+  protection-factor: 0.8
+chaos:
+  priority: 10
+  name: Chaos Defense
+  format: '&d▸ %name%: &f%value% %condition%'
+  block-damage-types:
+  - magical
+  protection-factor: 0.8

@@ -12,4 +12,4 @@ mob_room_1i:
   Cooldown: 120
   Warmup: 0
   ActivationRange: 25
-  CooldownTimer: 58
+  CooldownTimer: 1

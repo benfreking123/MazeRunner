@@ -1,0 +1,8 @@
+chance: 20.0
+roll-once: true
+mythic-mobs:
+- 'DecayedCutterInner'
+prevent-from: []
+levelled-mobs: []
+drop-tables:
+- uncommoninner

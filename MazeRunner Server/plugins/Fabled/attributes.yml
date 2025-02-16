@@ -1,0 +1,437 @@
+# Attributes.yml
+#
+# For full details, visit
+# http://dev.bukkit.org/bukkit-plugins/skillapi/pages/attributes/
+#
+# List of available stats to modify:
+#   armor            | [PREM, 1.9+] Vanilla damage mitigation
+#   armor-toughness  | [PREM, 1.9+] Secondary vanilla damage mitigation
+#   attack-speed	 | [PREM, 1.9+] Weapon recharge time
+#   cooldown         | [PREM] Modifies skill cooldowns
+#   defense-<type>   | [PREM] Reduces damage taken from various damage sources.
+#                    |     See the DamageCause docs to see supported types.
+#                    |     Use lower-case versions of it, such as "defense-block_explosion".
+#   exp              | [PREM] increases all class experience gained
+#   health           | The max health of the player
+#   hunger           | [PREM] Increases how long hunger lasts. This attribute is always based off of a base value of 1. A resulting value of 2 would double how long the hunger bar lasts, for example.
+#   hunger-heal      | [PREM] Increases how much you heal while satiated
+#   knockback-resist | [PREM, 1.9+] Probability of resisting knockback as a decimal (1.0 is 100% change to resist)
+#   luck	         | [PREM, 1.9+] loot table chances
+#   mana	         | The max mana of the player
+#   mana-regen       | The amount of mana regeneration the player has
+#   move-speed       | The movement speed of the player
+#   physical-damage  | The amount of damage done by physical (basic or projectile) attacks
+#   physical-defense | The amount of damage taken by physical (basic or projectile) attacks
+#   skill-damage	 | The amount of damage done by skills
+#   skill-defense    | The amount of damage taken by skills
+
+#   skill-damage-<classification>  | [PREM] The amount of damage done by skills with the specified classification
+#   skill-defense-<classification> | [PREM] The amount of damage taken by skills with the specified classification
+
+# iomatix proposes
+# cost_base - initial cost of an attr upgrade
+# cost_modifier - incremental value increasing cost_base for each of the attr upgrade
+# New placeholders for icon-lores:
+# {amount} - the stage value for invested points.
+# {total} - the stage value for invested points and class modifiers.
+# {max} - max stage value player can invest the attr points.
+# {cost} - cost in attr points for an upgrade to the next stage.
+# {invested} - total spent attr points for the attr.
+# {ap} - current value of attr points.
+
+
+agility:
+  display: Agility
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Leather boots
+  icon-data: 0
+  icon-lore:
+    - "&6Agility &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increased"
+    - "&7Movement Speed per"
+    - "&7point invested."
+    - ""
+    - "&7Grants 1% increased"
+    - "&7Armor Toughness per"
+    - "&7point invested."
+    - ""
+    - "&7Grants 1% increased"
+    - "&7Attack Speed per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    move-speed: a*0.01+1*v
+    armor-toughness: a*0.01+1*v
+    attack-speed: a*0.01+1*v
+armor:
+  display: Armor
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Iron chestplate
+  icon-data: 0
+  icon-lore:
+    - "&6Armor Modifier&7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7Armor per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    armor: a*0.01+1*v
+armor_mod:
+  display: Armor Modifier
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Iron bars
+  icon-data: 0
+  icon-lore:
+    - "&6Armor Modifier&7(&2{amount}&7)"
+    - ""
+    - "&7Grants +1 increase"
+    - "&7Armor per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    armor: a+v
+cooldown:
+  display: Cooldown
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Clock
+  icon-data: 0
+  icon-lore:
+    - "&6Cooldown &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7Cooldown per point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    cooldown: a*0.01+1*v
+dexterity:
+  display: Dexterity
+  max: "999"
+  cost_base: "1"
+  cost_modifier: "0.0"
+  icon: Rabbit foot
+  icon-data: "10"
+  icon-lore:
+    - "&6Dexterity &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 2.5% increased"
+    - "&7Range per point invested."
+    - ""
+    - "&7Grants 1% increased"
+    - "&7Projectile Damage"
+    - "&7per point invested."
+  global:
+    target:
+      Cone-range: a*0.025+1*v
+      Linear-range: a*0.025+1*v
+      Location-range: a*0.025+1*v
+      Nearest-radius: a*0.025+1*v
+      Single-range: a*0.025+1*v
+    condition: {}
+    mechanic: {}
+  stats:
+    skill-damage-DIVINITY_projectile: a*0.01+1*v
+energy_damage:
+  display: Energy Damage
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Snowball
+  icon-data: 0
+  icon-lore:
+    - "&6Melee Damage &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7Energy Damage per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    skill-damage-DIVINITY_energy: a*0.01+1*v
+energy_defense:
+  display: Energy Defense
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Wayfinder armor trim smithing template
+  icon-data: 0
+  icon-lore:
+    - "&6Energy Defense &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7Energy Defense per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    rpgdefense-energy: a*0.01+1*v
+intelligence:
+  display: Intelligence
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Writable book
+  icon-data: 5
+  icon-lore:
+    - "&6Intelligence &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increased"
+    - "&7Mana Regen per point"
+    - "&7invested."
+    - ""
+    - "&7Grants 1% increased"
+    - "&7skill damage per point"
+    - "&7invested."
+    - ""
+  global:
+    target: {}
+    condition: {}
+    mechanic:
+      Damage-value: a*0.01+1*v
+  stats:
+    mana-regen: a*0.01+1*v
+man_mod:
+  display: Mana Modifier
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Ink sac
+  icon-data: 0
+  icon-lore:
+    - "&6Mana Modifier &7(&2{amount}&7)"
+    - ""
+    - "&7Grants +1 increase"
+    - "&7Mana Modifier per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    mana: a+v
+mana:
+  display: Mana
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Glow ink sac
+  icon-data: 0
+  icon-lore:
+    - "&6Mana &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7Mana per point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    mana: a*0.01+1*v
+melee_damage:
+  display: Melee Damage
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Raw iron
+  icon-data: 0
+  icon-lore:
+    - "&6Melee Damage &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7projectile damage per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    skill-damage-DIVINITY_projectile: a*0.025+1*v
+melee_defense:
+  display: Melee Denfese
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Raiser armor trim smithing template
+  icon-data: 0
+  icon-lore:
+    - "&6Melee Defense &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7Melee Defense per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    rpgdefense-melee: a*0.01+1*v
+physical_defense:
+  display: Physical Defense
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Sentry armor trim smithing template
+  icon-data: 0
+  icon-lore:
+    - "&6Physical Defense &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7Physical Defense per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    physical-defense: a*0.01+1*v
+projectile_damage:
+  display: Projectile Damage
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Tipped arrow
+  icon-data: 0
+  icon-lore:
+    - "&6Projectile Damage &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7projectile damage per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    skill-damage-DIVINITY_projectile: a*0.025+1*v
+projectile_defense:
+  display: Projectile Defense
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Shaper armor trim smithing template
+  icon-data: 0
+  icon-lore:
+    - "&6Projectile Defense &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increase"
+    - "&7Projectile Defense per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    rpgdefense-projectile: a*0.01+1*v
+skill_damage:
+  display: Skill Damage
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Phantom membrane
+  icon-data: 0
+  icon-lore:
+    - "&6Skill Damage &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 0.5% increase"
+    - "&7Skill Damage per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    skill-damage: a*0.005+1*v
+strength:
+  display: Strength
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Brick
+  icon-data: 14
+  icon-lore:
+    - "&6Strength &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increased"
+    - "&7melee & physical damage per"
+    - "&7point invested."
+    - ""
+    - "&7Grants +1 increased"
+    - "&7Health per point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    skill-damage-DIVINITY_melee: a*0.01+1*v
+    health: a+v
+    physical-damage: a*0.01+1*v
+vitality:
+  display: Vitality
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Redstone
+  icon-data: 1
+  icon-lore:
+    - "&6Vitality &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% Regen per"
+    - "&7point invested."
+    - ""
+    - "&7Grants 1 Armor per"
+    - "&7point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    armor: a+v
+    hunger: a*0.01+1*v
+    ginher-heal: a*0.01+1*v
+wisdom:
+  display: Wisdom
+  max: 999
+  cost_base: 1
+  cost_modifier: 0
+  icon: Book
+  icon-data: 0
+  icon-lore:
+    - "&6Wisdom &7(&2{amount}&7)"
+    - ""
+    - "&7Grants 1% increased"
+    - "&7mana per point invested."
+    - ""
+    - "&7Grants 0.5% decreased"
+    - "&7cooldown per point invested."
+  global:
+    target: {}
+    condition: {}
+    mechanic: {}
+  stats:
+    mana: a*0.01+1*v
+    cooldown: (1-(a*0.005))*v

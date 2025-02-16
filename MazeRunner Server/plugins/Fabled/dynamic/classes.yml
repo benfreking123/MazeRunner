@@ -1,0 +1,67 @@
+loaded: 'true'
+baseliner: 
+  name: 'baseliner'
+  'action-bar': ''
+  prefix: '&6BaseLiner (X)'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 10
+  parent: ''
+  'needs-permission': 'false'
+  attributes: 
+    'health-base': '20'
+    'health-scale': '1'
+    'mana-base': '20'
+    'mana-scale': '1'
+    'projectile_damage-base': '0'
+    'projectile_damage-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'strength-base': '0'
+    'strength-scale': '0'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+  'mana-regen': 1.0
+  'skill-tree': 'FLOOD'
+  blacklist: []
+  skills: 
+  - 'Dart'
+  - 'Bomb'
+  - 'Dash'
+  - 'Energy Bolt'
+  - 'Strike'
+  icon: 'BARREL'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'baseliner'
+  'exp-source': 273
+  'combo-starters': 
+    S: 
+      inverted: 'true'
+      whitelist: []
+    RS: 
+      inverted: 'true'
+      whitelist: []
+    P: 
+      inverted: 'true'
+      whitelist: []
+    LS: 
+      inverted: 'true'
+      whitelist: []
+    R: 
+      inverted: 'true'
+      whitelist: []
+    Q: 
+      inverted: 'true'
+      whitelist: []
+    F: 
+      inverted: 'true'
+      whitelist: []
+    L: 
+      inverted: 'true'
+      whitelist: []

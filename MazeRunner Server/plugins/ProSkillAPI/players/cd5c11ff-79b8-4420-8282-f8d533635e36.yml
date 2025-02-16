@@ -1,23 +1,11 @@
-limit: 3
-active: 2
-health: 29.0
-mana: 29.0
+limit: 10
+active: 3
+health: 22.0
+mana: 22.0
 accounts: 
   acc1: 
-    classes: 
-      baseliner: 
-        level: 10
-        points: 3
-        exp: 0.0
-    skills: 
-      'Poison Darts': 
-        level: 0
-      'Fire Skill Burst': 
-        level: 2
-      Bomb: 
-        level: 3
-      Dash: 
-        level: 2
+    classes: {}
+    skills: {}
     binds: {}
     'attrib-points': 15
     attribs: 
@@ -28,44 +16,58 @@ accounts:
       dexterity: 3
       strength: 4
       vitality: 1
-    'text-layout': 
-      0: 'Bomb'
-      1: 'Dash'
+    'text-layout': {}
     hunger: 1.0
     persistent: {}
   acc2: 
     classes: 
       baseliner: 
-        level: 10
-        points: 0
-        exp: 21.0
+        level: 1
+        points: 1
+        exp: 0.0
     skills: 
-      'Poison Darts': 
-        level: 2
-      'Fire Skill Burst': 
+      Dart: 
         level: 0
-      Bomb: 
-        level: 4
-      Dash: 
-        level: 4
     binds: {}
-    'attrib-points': 33
-    attribs: {}
-    attrstages: {}
-    'text-layout': 
-      0: 'Bomb'
-      1: 'Dash'
-      2: 'Poison Darts'
+    'attrib-points': 27
+    attribs: 
+      dexterity: 51
+      projectile_damage: 159
+      strength: 2
+      vitality: 8
+      intelligence: 1
+    attrstages: 
+      dexterity: 51
+      projectile_damage: 159
+      strength: 2
+      vitality: 8
+      intelligence: 1
+    'text-layout': {}
     hunger: 1.0
     persistent: {}
   acc3: 
-    classes: {}
-    skills: {}
+    classes: 
+      baseliner: 
+        level: 1
+        points: 0
+        exp: 0.0
+    skills: 
+      Dart: 
+        level: 1
     binds: {}
-    'attrib-points': 0
-    attribs: {}
-    attrstages: {}
-    'text-layout': {}
+    'attrib-points': 74
+    attribs: 
+      projectile_damage: 26
+      strength: 1
+      vitality: 2
+      spirit: 2
+    attrstages: 
+      projectile_damage: 26
+      strength: 1
+      vitality: 2
+      spirit: 2
+    'text-layout': 
+      0: 'Dart'
     hunger: 1.0
     persistent: {}
   acc4: 

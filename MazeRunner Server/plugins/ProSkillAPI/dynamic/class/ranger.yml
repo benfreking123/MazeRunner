@@ -33,27 +33,27 @@ ranger:
   - 'ranger'
   'exp-source': 273
   'combo-starters': 
+    S: 
+      inverted: 'true'
+      whitelist: []
     LS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    F: 
       inverted: 'true'
       whitelist: []
     L: 
       inverted: 'true'
       whitelist: []
-    S: 
+    Q: 
       inverted: 'true'
       whitelist: []
-    R: 
+    P: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    Q: 
-      inverted: 'true'
-      whitelist: []
-    F: 
+    R: 
       inverted: 'true'
       whitelist: []

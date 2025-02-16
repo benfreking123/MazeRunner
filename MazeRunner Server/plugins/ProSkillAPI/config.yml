@@ -178,7 +178,7 @@ Items:
   'skill-requirements': 'false'
 
   # Whether to check for stat bonuses in an item's lore
-  'lore-attributes': 'false'
+  'lore-attributes': 'true'
 
   # Whether to drop weapons when unable to use them
   'drop-weapon': 'false'

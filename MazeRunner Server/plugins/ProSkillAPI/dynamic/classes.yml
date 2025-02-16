@@ -27,10 +27,7 @@ baseliner:
   'skill-tree': 'REQUIREMENT'
   blacklist: []
   skills: 
-  - 'Bomb'
-  - 'Dash'
-  - 'Poison Darts'
-  - 'Fire Skill Burst'
+  - 'Dart'
   icon: 'BARREL'
   'icon-data': 0
   'icon-durability': 0
@@ -38,28 +35,28 @@ baseliner:
   - 'baseliner'
   'exp-source': 273
   'combo-starters': 
+    S: 
+      inverted: 'true'
+      whitelist: []
     LS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    F: 
       inverted: 'true'
       whitelist: []
     L: 
       inverted: 'true'
       whitelist: []
-    S: 
+    Q: 
       inverted: 'true'
       whitelist: []
-    R: 
+    P: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    Q: 
-      inverted: 'true'
-      whitelist: []
-    F: 
+    R: 
       inverted: 'true'
       whitelist: []
 paladin: 
@@ -97,28 +94,28 @@ paladin:
   - 'paladin'
   'exp-source': 273
   'combo-starters': 
+    S: 
+      inverted: 'true'
+      whitelist: []
     LS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    F: 
       inverted: 'true'
       whitelist: []
     L: 
       inverted: 'true'
       whitelist: []
-    S: 
+    Q: 
       inverted: 'true'
       whitelist: []
-    R: 
+    P: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    Q: 
-      inverted: 'true'
-      whitelist: []
-    F: 
+    R: 
       inverted: 'true'
       whitelist: []
 ranger: 
@@ -156,28 +153,28 @@ ranger:
   - 'ranger'
   'exp-source': 273
   'combo-starters': 
+    S: 
+      inverted: 'true'
+      whitelist: []
     LS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    F: 
       inverted: 'true'
       whitelist: []
     L: 
       inverted: 'true'
       whitelist: []
-    S: 
+    Q: 
       inverted: 'true'
       whitelist: []
-    R: 
+    P: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    Q: 
-      inverted: 'true'
-      whitelist: []
-    F: 
+    R: 
       inverted: 'true'
       whitelist: []
 rouge: 
@@ -215,28 +212,28 @@ rouge:
   - 'rouge'
   'exp-source': 273
   'combo-starters': 
+    S: 
+      inverted: 'true'
+      whitelist: []
     LS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    F: 
       inverted: 'true'
       whitelist: []
     L: 
       inverted: 'true'
       whitelist: []
-    S: 
+    Q: 
       inverted: 'true'
       whitelist: []
-    R: 
+    P: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    Q: 
-      inverted: 'true'
-      whitelist: []
-    F: 
+    R: 
       inverted: 'true'
       whitelist: []
 sage: 
@@ -266,13 +263,7 @@ sage:
   'mana-regen': 1.0
   'skill-tree': 'REQUIREMENT'
   blacklist: []
-  skills: 
-  - 'Earthquake'
-  - 'Plague'
-  - 'Rain of Arrows'
-  - 'Ring of Fire'
-  - 'Dash'
-  - 'Jump Smash'
+  skills: []
   icon: 'BELL'
   'icon-data': 0
   'icon-durability': 0
@@ -280,28 +271,28 @@ sage:
   - 'sage'
   'exp-source': 273
   'combo-starters': 
+    S: 
+      inverted: 'true'
+      whitelist: []
     LS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    F: 
       inverted: 'true'
       whitelist: []
     L: 
       inverted: 'true'
       whitelist: []
-    S: 
+    Q: 
       inverted: 'true'
       whitelist: []
-    R: 
+    P: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    Q: 
-      inverted: 'true'
-      whitelist: []
-    F: 
+    R: 
       inverted: 'true'
       whitelist: []
 seeker: 
@@ -339,28 +330,28 @@ seeker:
   - 'seeker'
   'exp-source': 273
   'combo-starters': 
+    S: 
+      inverted: 'true'
+      whitelist: []
     LS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    F: 
       inverted: 'true'
       whitelist: []
     L: 
       inverted: 'true'
       whitelist: []
-    S: 
+    Q: 
       inverted: 'true'
       whitelist: []
-    R: 
+    P: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    Q: 
-      inverted: 'true'
-      whitelist: []
-    F: 
+    R: 
       inverted: 'true'
       whitelist: []
 warrior: 
@@ -398,27 +389,27 @@ warrior:
   - 'warrior'
   'exp-source': 273
   'combo-starters': 
+    S: 
+      inverted: 'true'
+      whitelist: []
     LS: 
       inverted: 'true'
       whitelist: []
-    P: 
+    F: 
       inverted: 'true'
       whitelist: []
     L: 
       inverted: 'true'
       whitelist: []
-    S: 
+    Q: 
       inverted: 'true'
       whitelist: []
-    R: 
+    P: 
       inverted: 'true'
       whitelist: []
     RS: 
       inverted: 'true'
       whitelist: []
-    Q: 
-      inverted: 'true'
-      whitelist: []
-    F: 
+    R: 
       inverted: 'true'
       whitelist: []

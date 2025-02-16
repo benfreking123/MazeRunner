@@ -1,0 +1,13 @@
+chance: 20.0
+roll-once: true
+mythic-mobs:
+- 'TankInner'
+- 'RunnerInner'
+- 'FarmerInner'
+- 'CutterInner'
+- 'DirtmanInner'
+- 'GoblinTosserInner'
+prevent-from: []
+levelled-mobs: []
+drop-tables:
+- commoninner

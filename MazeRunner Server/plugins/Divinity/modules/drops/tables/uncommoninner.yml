@@ -1,0 +1,23 @@
+name: '&dExample Multi-Item Table'
+roll-once: false
+level-penalty:
+  enabled: false
+  variance: 10
+world-whitelist:
+- world
+- world_nether
+- world_the_end
+- flat
+- '*'
+biome-whitelist:
+- '*'
+region-blacklist: []
+items:
+  tier-random:
+    chance: 100.0
+    item-id: 'UncommonMazeRunnerInner'
+    module-id: item_generator
+    min-level: '%mob_lvl% + 1'
+    max-level: '%mob_lvl% + 3'
+    additional-conditions: []
+    actions-on-drop: {}

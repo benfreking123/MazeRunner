@@ -1,0 +1,8 @@
+worlds:
+  world:
+    day:
+      multiplier: 0.5
+      desc: 20.0 minutes
+    night:
+      multiplier: 1.4285714285714286
+      desc: 7.0 minutes

@@ -4,6 +4,7 @@ ATTRIBUTES:
   slots: 
     1: 
       dexterity: 3
+      projectile_damage: 5
       strength: 4
       vitality: 0
       spirit: 1
@@ -34,14 +35,11 @@ stWarrior:
       'summon throwing dagger': 19
       'blood slash': 28
 stpaladin: 
-  rows: 4
+  rows: 1
   pages: 1
   slots: 
     1: 
-      'poison darts': 27
-      'fire skill burst': 18
-      bomb: 0
-      dash: 9
+      dart: 0
 stMarksman: 
   rows: 5
   pages: 1
@@ -53,32 +51,23 @@ stMarksman:
       fireball: 0
       'summon throwing dagger': 27
 stwarrior: 
-  rows: 4
+  rows: 1
   pages: 1
   slots: 
     1: 
-      'poison darts': 27
-      'fire skill burst': 18
-      bomb: 0
-      dash: 9
+      dart: 0
 strouge: 
-  rows: 4
+  rows: 1
   pages: 1
   slots: 
     1: 
-      'poison darts': 27
-      'fire skill burst': 18
-      bomb: 0
-      dash: 9
+      dart: 0
 stseeker: 
-  rows: 4
+  rows: 1
   pages: 1
   slots: 
     1: 
-      'poison darts': 27
-      'fire skill burst': 18
-      bomb: 0
-      dash: 9
+      dart: 0
 stNinja: 
   rows: 2
   pages: 1
@@ -114,19 +103,11 @@ CLASS_DETAILS:
     1: 
       class: 0
 stsage: 
-  rows: 5
+  rows: 1
   pages: 1
   slots: 
     1: 
-      'rain of arrows': 36
-      'ring of fire': 37
-      'poison darts': 28
-      'jump smash': 19
-      'fire skill burst': 18
-      earthquake: 10
-      bomb: 0
-      dash: 9
-      plague: 27
+      dart: 0
 stHunter: 
   rows: 4
   pages: 1
@@ -137,14 +118,11 @@ stHunter:
       'smoke bomb': 9
       'summon throwing dagger': 18
 stranger: 
-  rows: 4
+  rows: 1
   pages: 1
   slots: 
     1: 
-      'poison darts': 27
-      'fire skill burst': 18
-      bomb: 0
-      dash: 9
+      dart: 0
 CLASS_SELECTION: 
   rows: 3
   pages: 1
@@ -152,11 +130,8 @@ CLASS_SELECTION:
     1: 
       baseliner: 0
 stbaseliner: 
-  rows: 4
+  rows: 1
   pages: 1
   slots: 
     1: 
-      'poison darts': 27
-      'fire skill burst': 18
-      bomb: 0
-      dash: 9
+      dart: 0

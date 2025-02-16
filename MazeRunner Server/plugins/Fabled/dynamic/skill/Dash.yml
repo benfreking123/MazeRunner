@@ -1,0 +1,78 @@
+Dash: 
+  name: 'Dash'
+  type: 'Movement'
+  'max-level': 100
+  'skill-req-lvl': 0
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '0'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '5'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'FEATHER'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        'Value Attribute': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            key: 'movespeed'
+            attribute: 'movespeed'
+            save: 'false'
+          preview: 
+            enabled: 'false'
+          children: {}
+        'Value Add': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            key: 'movespeed'
+            'amount-base': '1'
+            'amount-scale': '0.25'
+            save: 'false'
+          preview: 
+            enabled: 'false'
+          children: {}
+        Launch: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            relative: 'Caster'
+            'reset-y': 'false'
+            'forward-base': 'movespeed'
+            'forward-scale': '0'
+            'upward-base': '0.15'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}

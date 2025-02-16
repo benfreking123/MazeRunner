@@ -1,0 +1,115 @@
+Strike: 
+  name: 'Strike'
+  type: 'Melee'
+  'max-level': 100
+  'skill-req-lvl': 0
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '0'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '5'
+    'mana-scale': '1'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'IRON_SWORD'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Cone: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'range-base': '3'
+            'range-scale': '0'
+            'angle-base': '90'
+            'angle-scale': '0'
+            'rotation-base': '0'
+            'rotation-scale': '0'
+            'reset-y': 'true'
+            group: 'Enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'False'
+            'max-base': '99'
+            'max-scale': '0'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+            triangle: 'false'
+            cone: 'false'
+          children: 
+            Damage: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                type: 'Damage'
+                'value-base': '3'
+                'value-scale': '1'
+                true: 'false'
+                classifier: 'DIVINITY_melee'
+                knockback: 'true'
+                'ignore-divinity': 'false'
+                cause: 'Custom'
+              preview: 
+                enabled: 'false'
+              children: {}
+        'Particle Animation': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            steps: '5'
+            frequency: '0.05'
+            angle: '-90'
+            start: '0'
+            'duration-base': '0.25'
+            'duration-scale': '0'
+            'h-translation-base': '1'
+            'h-translation-scale': '0'
+            'v-translation-base': '-1'
+            'v-translation-scale': '0'
+            'h-cycles': '1'
+            'v-cycles': '1'
+            particle: 'Block crack'
+            material: 'Netherrack'
+            arrangement: 'Sphere'
+            'radius-base': '0.25'
+            'radius-scale': '0'
+            'particles-base': '5'
+            'particles-scale': '0'
+            'visible-radius': '25'
+            dx: '0'
+            dy: '0'
+            dz: '0'
+            amount: '1'
+            speed: '0.1'
+            forward: '0.5'
+            upward: '1.5'
+            right: '-0.5'
+            '-with-rotation': 'true'
+          preview: 
+            enabled: 'false'
+          children: {}

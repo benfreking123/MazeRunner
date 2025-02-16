@@ -29,6 +29,7 @@ FarmerInner:
   - WOODEN_HOE HAND
   Drops:
   - GOLD_NUGGET{display="Gold Coin"} 1to2 0.5
+  - WOODEN_HOE 0.05
   LevelModifiers:
     Health: 5
     Damage: 0.5
@@ -99,6 +100,25 @@ CursedStatue:
     Silent: true
   Modules:
     ThreatTable: true
+Dummy:
+  Type: ZOMBIE
+  Display: 'Dummy'
+  Health: 400000000
+  Damage: 5
+  Equipment:
+    - leather_chestplate{color=BROWN} CHEST
+    - leather_leggings{color=BROWN} LEGS
+    - leather_boots{color=BROWN} FEET
+  Disguise: armorstand
+  Options:
+    MovementSpeed: 0
+    Invincible: false
+    KnockbackResistance: 100
+    MovementSpeed: 0
+    PreventSunburn: true
+    Silent: true
+  Modules:
+    ThreatTable: true
 CutterInner:
   Type: ZOMBIE
   Display: '&5Cutter Lvl - <caster.level>'
@@ -113,6 +133,22 @@ CutterInner:
   LevelModifiers:
     Health: 5
     Damage: 0.5
+NightMaze:
+  Type: ENDERMAN
+  Display: '&5????'
+  Health: 150
+  Damage: 25
+  LevelModifiers:
+    Health: 5
+    Damage: 0.5
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - players
+  Skills:
+  - teleport{spreadh=1;spreadv=0;cooldown=5} @target
 DecayedCutterInner:
   Type: SKELETON
   Display: '&5Decayed Cutter Lvl - <caster.level>'
