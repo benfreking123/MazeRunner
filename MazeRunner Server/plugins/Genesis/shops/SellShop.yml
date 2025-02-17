@@ -5,31 +5,10 @@ signs:
   text: '[SellShop]'
   NeedPermissionToCreateSign: true
 shop:
-  Wool:
+  OakLog:
     MenuItem:
-      - 'lore:&c10 Red, &110 Blue, &e10 Yellow and &a10 Green Wool #&cPrice: 400 Money'
-      - name:&9Colored Wool
-      - amount:40
-      - type:YELLOW_WOOL
-    RewardType: command
-    Reward:
-      - - amount:10
-        - type:RED_WOOL
-      - - amount:10
-        - type:BLUE_WOOL
-      - - amount:10
-        - type:YELLOW_WOOL
-      - - amount:10
-        - type:GREEN_WOOL
-    PriceType: MONEY
-    Price: 400.0
-    Message: '&eYou bought colored Wool! Money left: &c%left%'
-    ExtraPermission: ''
-    InventoryLocation: 1
-  SellLog:
-    MenuItem:
-      - name:&f&lAdventure mode
-      - lore:&8Set the gamemode of &l&6%input% &8to adventure mode.
+      - name:&f&lOak Log
+      - lore:&cSell All&7 Oak Logs in Inventory.
       - amount:1
       - type:OAK_LOG
     RewardType: PLAYERCOMMAND
@@ -38,17 +17,134 @@ shop:
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 2
-  SellDiamond:
+    InventoryLocation: 1
+  OakPlanks:
     MenuItem:
-      - name:&f&lAdventure mode
-      - lore:&8Set the gamemode of &l&6%input% &8to adventure mode.
+      - name:&f&lOak Planks
+      - lore:&cSell All&7 Oak Logs in Inventory.
       - amount:1
-      - type:Diamond
+      - type:OAK_PLANKS
     RewardType: PLAYERCOMMAND
     Reward:
-      - 'essentials:sell Diamond'
+      - 'essentials:sell Oak_planks'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Cobblestone:
+    MenuItem:
+      - name:&f&lCobblestone
+      - lore:&cSell All&7 Cobblestone in Inventory.
+      - amount:1
+      - type:COBBLESTONE
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell Cobblestone'
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 3
+  Stone:
+    MenuItem:
+      - name:&f&lStone
+      - lore:&cSell All&7 Stone in Inventory.
+      - amount:1
+      - type:STONE
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell Stone'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  RawCopper:
+    MenuItem:
+      - name:&f&lRaw Copper
+      - lore:&cSell All&7 Raw Copper in Inventory.
+      - amount:1
+      - type:RAW_COPPER
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell raw_copper'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  CopperIngot:
+    MenuItem:
+      - name:&f&lCopper Ingot
+      - lore:&cSell All&7 Copper Ingot in Inventory.
+      - amount:1
+      - type:COPPER_INGOT
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell copper_ingot'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  Wheat:
+    MenuItem:
+      - name:&f&lWHEAT
+      - lore:&cSell All&7 Wheat in Inventory.
+      - amount:1
+      - type:WHEAT
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell wheat'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Seeds:
+    MenuItem:
+      - name:&f&lSeeds
+      - lore:&cSell All&7 Seeds in Inventory.
+      - amount:1
+      - type:SEEDS
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell wheat_seeds'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  RottenFlesh:
+    MenuItem:
+      - name:&f&lRotten Flesh
+      - lore:&cSell All&7 Rotten Flesh in Inventory.
+      - amount:1
+      - type:ROTTEN_FLESH
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell rotten_flesh'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  Arrow:
+    MenuItem:
+      - name:&f&lArrow
+      - lore:&cSell All&7 Arrows in Inventory.
+      - amount:1
+      - type:ARROW
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell arrow'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  GoldNugget:
+    MenuItem:
+      - name:&f&lGold Nugget
+      - lore:&cSell All&7 Gold Nuggets in Inventory.
+      - amount:1
+      - type:GOLD_NUGGET
+    RewardType: PLAYERCOMMAND
+    Reward:
+      - 'essentials:sell gold_nugget'
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19

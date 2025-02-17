@@ -1,13 +1,13 @@
-limit: 10
+limit: 3
 active: 1
-health: 66.0
-mana: 71.4531
+health: 69.0
+mana: 71.8272
 accounts: 
   acc1: 
     classes: 
       baseliner: 
         level: 10
-        points: 12
+        points: 11
         exp: 0.0
     skills: 
       Dart: 
@@ -15,25 +15,25 @@ accounts:
       'Energy Bolt': 
         level: 1
       Strike: 
-        level: 2
+        level: 3
       Bomb: 
         level: 2
       Dash: 
         level: 1
     binds: {}
-    'attrib-points': 879
+    'attrib-points': 878
     attribs: 
       dexterity: 15
       projectile_damage: 72
       strength: 37
       vitality: 15
-      wisdom: 91
+      wisdom: 92
     attrstages: 
       dexterity: 15
       projectile_damage: 72
       strength: 37
       vitality: 15
-      wisdom: 91
+      wisdom: 92
     'text-layout': 
       0: 'Bomb'
       1: 'Dart'

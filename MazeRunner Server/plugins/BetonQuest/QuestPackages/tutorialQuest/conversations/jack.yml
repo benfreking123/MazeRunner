@@ -8,16 +8,16 @@ conversations:
         conditions: "!hasTalk1i"
         events: "endTalk1i_1"
       simonQuest1:
-        text: "Thanks for your help, Can you clear out some of the Cutters near my house, they are scarying me"
+        text: "Thanks for your help, Can you clear out some of the Cutters near my house, they are scarying me\n&9Objective&r: Kill 10 Cutter Mobs"
         event: "startMobKill1i"
         conditions: "!hasMobKill2i, hasTalk1i"
       simonQuest2:
-        text: "My house is all beat up and broken, I could use some help fixing her up.\nWould you mine gathering some wood for me?"
+        text: "My house is all beat up and broken, I could use some help fixing her up.\nWould you mine gathering some wood for me?\n&9Objective&r: Gather 100 Oak Logs"
         event: "startMobKill1i"
         conditions: "!hasPickup5i,hasMobKill2i"
         pointer: "playerSimonQuest2"
       simonQuestE:
-        text: "Ok I'll tell you a Secret. There is a special type of Cutter that I sometimes see in the woods. They are all bone!!!\nI know sometimes they have a shiny blue key on them"
+        text: "Ok I'll tell you a Secret. There is a special type of Cutter that I sometimes see in the woods. They are all bone!!!\nI know sometimes they have a shiny blue key on them\n&9Objective&r: Kill 3 Decayed Cutters & Pickup a Crypt Key"
         event: "startSimonQuestE"
         conditions: "!hasPickup6i,hasPickup5i"
         pointer: "playerSimonQuestE"
@@ -42,46 +42,46 @@ conversations:
         text: "Find evyerhting "
         events: "startDiscoversInner"
       firstGreeting:
-        text: "Hello and welcome to my town traveler! Nice to see you. Where are you from?"
+        text: "Hello and welcome to Epenoch traveler! Nice to meet you. Here's some food."
         events: "startStarterQuest,tagStarterQuest,startDiscoversInner"
         conditions: "!hasStarterQuest" 
       innerQuest1:
-        text: "Now that you have gotten some food, lets start your Adventure!\nGo Into the Maze to Find and Kill 10 Zombies!"
+        text: "Now that you have gotten some food, lets start your Adventure!\nGo Into the Maze to Find and Kill some Zombies!\n&9Objective&r: Kill 10 Zombies"
         event: "startMobKill1i"
         conditions: "!hasMobKill1i,hasStarterQuest"
       innerQuest2:
-        text: "Thanks for Killing the Zombies, the Maze is Safer with you.\nGo Get me some Gold Nugget!!!"
+        text: "Thanks for Killing the Zombies, the Maze is Safer with you.\nGo Get me some Gold Nugget!!!\n&9Objective&r: Find 10 Gold Nuggets"
         event: "startPickup1i"
         conditions: "!hasPickup1i,hasMobKill1i"
         pointer: "playerinnerQuest2"
       innerQuest3:
-        text: "Now that you have found some Loot from the Maze.\nI want you to go look for something a bit more rare, its found in Chest throughout the dungeon."
+        text: "Now that you have found some Loot from the Maze.\nI want you to go look for something a bit more rare, its found in Chest throughout the dungeon.\n&9Objective&r: Pickup 25 Raw Copper"
         event: "startPickup2i"
         conditions: "!hasPickup2i,hasPickup1i"
         pointer: "playerinnerQuest3"
       innerQuest4:
-        text: "Perfect, you are ready to gather Some Resources! look for some some stone to mine around the Maze!"
+        text: "Perfect, you are ready to gather Some Resources! look for some some stone to mine around the Maze!\n&9Objective&r: Pickup 35 Cobblestone"
         event: "startPickup3i"
         conditions: "!hasFind1i,hasPickup2i"
         pointer: "playerinnerQuest4"
       innerQuest5:
-        text: "We are in need of food, Could you please go find find the Field and gather some wheat for us!"
+        text: "We are in need of food, Could you please go find find the Field and gather some wheat for us!\n&9Objective&r: Find the Wheat Field & Return with 30 Wheat"
         conditions: "!hasPickup3i,hasFind1i"
         pointer: "playerinnerQuest5"
       innerQuest6:
-        text: "We need a special item from you, a Wooden Hoe. It can be found by killing farmers"
+        text: "We need a special item from you, a Wooden Hoe. It can be found by killing farmers\n&9Objective&r: Kill Farmers until you find a Wooden Hoe"
         conditions: "!hasPickup4i,hasPickup3i"
         event: "startPickup4i"
       innerQuest7:
-        text: "I heard whispers of a land of trees, I have never heard of such a place, Have you ever seen a place like this?"
+        text: "I heard whispers of a land of trees, I have never heard of such a place, Have you ever seen a place like this?\n&9Objective&r: Located the Forest"
         conditions: "!hasFind2i, hasPickup4i"
         pointer: "playerinnerQuest7"
       innerQuest8:
-        text: "You should explore the Forest, see if you can find anything."
+        text: "You should explore the Forest, see if you can find anything.\n&9Objective&r: Talk to Simon"
         conditions: "!hasTalk1i, hasFind2i"
         pointer: "playerinnerQuest8"
       innerQuest9:
-        text: "Well Go Assist Simon, Always can use a friend in the Maze"
+        text: "Well Go Assist Simon, Always can use a friend in the Maze\n&9Objective&r: Finish Simons Quest"
         conditions: "!hasSimonComplete, hasTalk1i"
         pointer: "playerinnerQuest9"
     

@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1739664935552
-  login: 1739661387824
-money: '118105.63'
+  logout: 1739758522368
+  login: 1739751693777
+money: '94508.13'
 last-account-name: Bishop4302
 logoutlocation:
   world: 73aa93cb-58ed-4e14-b40d-b87898d40581
   world-name: world
-  x: -2.7026136341933795
-  y: 71.61221322432509
-  z: -149.6290831694957
-  yaw: 10.8299560546875
-  pitch: 7.650096416473389
+  x: 45.70609549194752
+  y: 72.74854547898923
+  z: -254.62540043216413
+  yaw: 159.3485107421875
+  pitch: 38.84993362426758
 lastlocation:
   world: 73aa93cb-58ed-4e14-b40d-b87898d40581
   world-name: world

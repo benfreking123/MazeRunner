@@ -41,8 +41,4 @@ doors:
   stayOpen: 0
   conditionBag:
     ==: bdoConditionBag
-    conditions:
-    - ==: timeCondition
-      openTick: 0
-      closeTick: 12000
-      forceState: true
+    conditions: []

@@ -1,7 +1,7 @@
 baseliner: 
   name: 'baseliner'
   'action-bar': ''
-  prefix: '&6BaseLiner (X)'
+  prefix: '&6BaseLiner '
   group: 'class'
   mana: '&2Mana'
   'max-level': 10
@@ -40,27 +40,27 @@ baseliner:
   - 'baseliner'
   'exp-source': 273
   'combo-starters': 
-    S: 
-      inverted: 'true'
-      whitelist: []
-    RS: 
+    L: 
       inverted: 'true'
       whitelist: []
     P: 
       inverted: 'true'
       whitelist: []
+    S: 
+      inverted: 'true'
+      whitelist: []
     LS: 
-      inverted: 'true'
-      whitelist: []
-    R: 
-      inverted: 'true'
-      whitelist: []
-    Q: 
       inverted: 'true'
       whitelist: []
     F: 
       inverted: 'true'
       whitelist: []
-    L: 
+    Q: 
+      inverted: 'true'
+      whitelist: []
+    R: 
+      inverted: 'true'
+      whitelist: []
+    RS: 
       inverted: 'true'
       whitelist: []

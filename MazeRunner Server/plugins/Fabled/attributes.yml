@@ -107,24 +107,6 @@ armor_mod:
     mechanic: {}
   stats:
     armor: a+v
-cooldown:
-  display: Cooldown
-  max: 999
-  cost_base: 1
-  cost_modifier: 0
-  icon: Clock
-  icon-data: 0
-  icon-lore:
-    - "&6Cooldown &7(&2{amount}&7)"
-    - ""
-    - "&7Grants 1% increase"
-    - "&7Cooldown per point invested."
-  global:
-    target: {}
-    condition: {}
-    mechanic: {}
-  stats:
-    cooldown: a*0.01+1*v
 dexterity:
   display: Dexterity
   max: "999"
@@ -434,4 +416,3 @@ wisdom:
     mechanic: {}
   stats:
     mana: a*0.01+1*v
-    cooldown: (1-(a*0.005))*v

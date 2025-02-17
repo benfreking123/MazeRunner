@@ -1,15 +1,15 @@
 objectives: 
-  mobKill1i: "mobkill ZOMBIE 1 notify events:endMobKill1i"
-  pickup1i: "pickup gold_nugget amount:3 notify"
-  pickup2i: "pickup raw_copper amount:3 notify"
-  pickup3i: "pickup cobblestone amount:10 notify"
+  mobKill1i: "mobkill ZOMBIE 10 notify events:endMobKill1i"
+  pickup1i: "pickup gold_nugget amount:10 notify"
+  pickup2i: "pickup raw_copper amount:25 notify"
+  pickup3i: "pickup cobblestone amount:35 notify"
   location1i: "location 128;64;-266;world 10 entry notify"
   pickup4i: "pickup wooden_hoe amount:1 notify events:endPickup4i"  
   
-  mobKill2i: "mobkill ZOMBIE 1 name:Cutter_Lvl_-_3 notify events:endMobKill2i"
+  mobKill2i: "mobkill ZOMBIE 20 name:Cutter_Lvl_-_3 notify events:endMobKill2i"
   pickup5i: "pickup oak_log amount:100 notify"
-  pickup6i_1: "mobkill SKELETON 1 name:Decayed_Cutter_Lvl_-_4 notify events:endMobKill2i"
-  pickup6i: "pickup oak_log amount:100 notify"
+  pickup6i_1: "mobkill SKELETON 3 name:Decayed_Cutter_Lvl_-_4 notify events:endMobKill2i"
+  pickup6i: "pickup crypt_key amount:1 notify"
   #pickupi: "pickup loot_box_common amount:1 notify events:endPickupi"
 
   discover1i: "location 128;64;-266;world 10 entry notify events:endDiscover1i"
