@@ -1,0 +1,6 @@
+brushes:
+  ==: sbrYamlBrushes
+  playerBrushes: []
+  globalBrushes:
+    ==: sbrYamlBrushContainer
+    brushes: []

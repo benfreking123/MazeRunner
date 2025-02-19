@@ -279,3 +279,191 @@
 [16-02-2025 18:21:18] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
 [16-02-2025 18:21:18] Successfully hooked into "WorldGuard"!
 [16-02-2025 18:21:18] Successfully hooked into "GriefPrevention"!
+[17-02-2025 03:34:45] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[17-02-2025 03:34:45] Successfully hooked into "WorldGuard"!
+[17-02-2025 03:34:45] Successfully hooked into "GriefPrevention"!
+[17-02-2025 19:23:16] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[17-02-2025 19:23:16] Successfully hooked into "WorldGuard"!
+[17-02-2025 19:23:16] Successfully hooked into "GriefPrevention"!
+[17-02-2025 22:40:07] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[17-02-2025 22:40:07] Successfully hooked into "WorldGuard"!
+[17-02-2025 22:40:07] Successfully hooked into "GriefPrevention"!
+[18-02-2025 00:53:39] Door retrieval failure: No default DoorOwner for door 2!
+[18-02-2025 00:55:53] Door retrieval failure: No default DoorOwner for door 2!
+[18-02-2025 00:55:53] Door retrieval failure: No default DoorOwner for door 2!
+[18-02-2025 00:59:17] Updating openDirection of sliding door 3 "sanctuary" to NORTH. If this is undesired, change it via the GUI.
+[18-02-2025 01:43:52] Door retrieval failure: No default DoorOwner for door 3!
+[18-02-2025 01:43:52] Door retrieval failure: No default DoorOwner for door 3!
+[18-02-2025 01:55:18] Updating openDirection of portcullis 4 "sanctuary" to UP. If this is undesired, change it via the GUI.
+[18-02-2025 08:45:14] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[18-02-2025 08:45:15] Successfully hooked into "WorldGuard"!
+[18-02-2025 08:45:15] Successfully hooked into "GriefPrevention"!
+[18-02-2025 09:08:18] Toggle denied because access to new location was prevented by WorldGuard for door: "sanctuary". Owned by "cd5c11ff-79b8-4420-8282-f8d533635e36" (2)
+Max = (10;226;-202), min = (-10;146;-204)
+Eng = (0;65;-203), locked = false, open = true
+blockCount = 5103, hash = 45071984119
+[18-02-2025 09:14:37] Toggle denied because access to new location was prevented by WorldGuard for door: "sanctuary". Owned by "cd5c11ff-79b8-4420-8282-f8d533635e36" (2)
+Max = (10;226;-202), min = (-10;146;-204)
+Eng = (0;65;-203), locked = false, open = true
+blockCount = 5103, hash = 45071984119
+[18-02-2025 23:33:18] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[18-02-2025 23:33:19] Successfully hooked into "WorldGuard"!
+[18-02-2025 23:33:19] Successfully hooked into "GriefPrevention"!
+[18-02-2025 23:44:42] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[18-02-2025 23:44:42] Successfully hooked into "WorldGuard"!
+[18-02-2025 23:44:42] Successfully hooked into "GriefPrevention"!
+[18-02-2025 23:48:46] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[18-02-2025 23:48:46] Exception encountered while initiating Vault dependency! It will be disabled! Please contact pim16aap2!
+[18-02-2025 23:48:46] java.lang.NullPointerException: Cannot invoke "org.bukkit.plugin.RegisteredServiceProvider.getProvider()" because "rsp" is null
+	at BigDoors.jar//nl.pim16aap2.bigDoors.VaultManager.setupPermissions(VaultManager.java:243)
+	at BigDoors.jar//nl.pim16aap2.bigDoors.VaultManager.<init>(VaultManager.java:37)
+	at BigDoors.jar//nl.pim16aap2.bigDoors.BigDoors.onEnable0(BigDoors.java:257)
+	at BigDoors.jar//nl.pim16aap2.bigDoors.BigDoors.onEnable(BigDoors.java:159)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1097)
+	at org.bukkit.Bukkit.reload(Bukkit.java:993)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987)
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
+	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:324)
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:308)
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2354)
+	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$21(PlayerConnection.java:2314)
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(IAsyncTaskHandler.java:59)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at net.minecraft.server.TickTask.run(TickTask.java:18)
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1338)
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1315)
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1308)
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
+	at net.minecraft.server.MinecraftServer.p_(MinecraftServer.java:1286)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1174)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[18-02-2025 23:48:46] Failed to initialize the "GriefPrevention" (version "16.18.2") compatibility hook!
+[18-02-2025 23:48:46] Now resuming normal startup with the "GriefPrevention" Compatibility Hook disabled!
+
+
+[18-02-2025 23:48:46] java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at BigDoors.jar//nl.pim16aap2.bigDoors.compatibility.ProtectionCompatManager.loadFromPluginName(ProtectionCompatManager.java:356)
+	at BigDoors.jar//nl.pim16aap2.bigDoors.compatibility.ProtectionCompatManager.restart(ProtectionCompatManager.java:66)
+	at BigDoors.jar//nl.pim16aap2.bigDoors.compatibility.ProtectionCompatManager.<init>(ProtectionCompatManager.java:54)
+	at BigDoors.jar//nl.pim16aap2.bigDoors.BigDoors.onEnable0(BigDoors.java:266)
+	at BigDoors.jar//nl.pim16aap2.bigDoors.BigDoors.onEnable(BigDoors.java:159)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.reload(CraftServer.java:1097)
+	at org.bukkit.Bukkit.reload(Bukkit.java:993)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:54)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987)
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
+	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:324)
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:308)
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2354)
+	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$21(PlayerConnection.java:2314)
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(IAsyncTaskHandler.java:59)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at net.minecraft.server.TickTask.run(TickTask.java:18)
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1338)
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1315)
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1308)
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
+	at net.minecraft.server.MinecraftServer.p_(MinecraftServer.java:1286)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1174)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:839)
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:517)
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:472)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:130)
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SpigotPluginClassLoaderGroup.lookupClass(SpigotPluginClassLoaderGroup.java:43)
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SimpleListPluginClassLoaderGroup.getClassByName(SimpleListPluginClassLoaderGroup.java:37)
+	at io.papermc.paper.plugin.entrypoint.classloader.group.LockingClassLoaderGroup.getClassByName(LockingClassLoaderGroup.java:34)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:173)
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at BigDoors.jar//nl.pim16aap2.bigDoors.compatibility.GriefPreventionProtectionCompat.<init>(GriefPreventionProtectionCompat.java:27)
+	... 42 more
+
+[18-02-2025 23:50:20] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[18-02-2025 23:50:20] Successfully hooked into "WorldGuard"!
+[18-02-2025 23:50:20] Successfully hooked into "GriefPrevention"!
+[19-02-2025 00:48:10] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 00:48:10] Successfully hooked into "WorldGuard"!
+[19-02-2025 00:48:10] Successfully hooked into "GriefPrevention"!
+[19-02-2025 01:40:32] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 01:40:32] Successfully hooked into "GriefPrevention"!
+[19-02-2025 01:45:32] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 01:45:32] Successfully hooked into "GriefPrevention"!
+[19-02-2025 01:49:08] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 01:49:08] Successfully hooked into "WorldGuard"!
+[19-02-2025 01:49:08] Successfully hooked into "GriefPrevention"!
+[19-02-2025 02:28:59] Failed to find prime owner of door 5
+[19-02-2025 02:30:20] Updating openDirection of portcullis 5 "sanc" to UP. If this is undesired, change it via the GUI.
+[19-02-2025 02:30:25] Door retrieval failure: No default DoorOwner for door 4!
+[19-02-2025 02:30:25] Door retrieval failure: No default DoorOwner for door 4!
+[19-02-2025 02:31:25] Door retrieval failure: No default DoorOwner for door 4!
+[19-02-2025 02:32:29] Door retrieval failure: No default DoorOwner for door 4!
+[19-02-2025 02:32:58] Door retrieval failure: No default DoorOwner for door 4!
+[19-02-2025 03:56:23] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 03:56:23] Successfully hooked into "WorldGuard"!
+[19-02-2025 03:56:23] Successfully hooked into "GriefPrevention"!
+[19-02-2025 03:59:32] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 03:59:32] Successfully hooked into "WorldGuard"!
+[19-02-2025 03:59:32] Successfully hooked into "GriefPrevention"!
+[19-02-2025 04:14:35] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 04:14:35] Successfully hooked into "WorldGuard"!
+[19-02-2025 04:14:35] Successfully hooked into "GriefPrevention"!
+[19-02-2025 06:12:52] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 06:12:52] Successfully hooked into "WorldGuard"!
+[19-02-2025 06:12:52] Successfully hooked into "GriefPrevention"!
+[19-02-2025 06:23:11] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 06:23:11] Successfully hooked into "WorldGuard"!
+[19-02-2025 06:23:11] Successfully hooked into "GriefPrevention"!
+[19-02-2025 06:49:48] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 06:49:49] Successfully hooked into "WorldGuard"!
+[19-02-2025 06:49:49] Successfully hooked into "GriefPrevention"!
+[19-02-2025 06:59:55] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 06:59:55] Successfully hooked into "WorldGuard"!
+[19-02-2025 06:59:55] Successfully hooked into "GriefPrevention"!
+[19-02-2025 07:11:26] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 07:11:26] Successfully hooked into "WorldGuard"!
+[19-02-2025 07:11:26] Successfully hooked into "GriefPrevention"!
+[19-02-2025 07:22:11] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 07:22:12] Successfully hooked into "WorldGuard"!
+[19-02-2025 07:22:12] Successfully hooked into "GriefPrevention"!
+[19-02-2025 01:54:18] Starting BigDoors version: Alpha 0.1.8.57 (b1179)
+[19-02-2025 01:54:18] Successfully hooked into "WorldGuard"!
+[19-02-2025 01:54:18] Successfully hooked into "GriefPrevention"!

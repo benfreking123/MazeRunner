@@ -1,0 +1,23 @@
+maze_mob_1i:
+  MobName: ZombieInner
+  World: world
+  X: 124
+  Y: 64
+  Z: -323
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '1'
+  MaxMobs: 5
+  Radius: 50
+  Cooldown: 10
+  CheckForPlayers: true
+  ActivationRange: 100
+  LeashRange: 100
+  MobsPerSpawn: 2
+  Warmup: 0
+  ActiveMobs: 3
+  CooldownTimer: 1
+  Conditions:
+  - notinregion{r=thefield}
+  - notinregion{r=underground}
+  - onground true

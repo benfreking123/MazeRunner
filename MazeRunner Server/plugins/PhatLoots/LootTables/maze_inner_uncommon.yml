@@ -1,0 +1,422 @@
+maze_inner_uncommon:
+  ==: PhatLoot
+  AutoLoot: true
+  BreakAndRespawn: true
+  Global: true
+  LootConditions:
+  - ==: ExperienceCondition
+    Enabled: false
+    Experience: 0
+    Name: ExperienceCondition
+    Option: above
+  - ==: PermissionCondition
+    Enabled: false
+    Name: PermissionCondition
+    Option: has
+    Permission: none
+  - ==: WeatherCondition
+    Enabled: false
+    Name: WeatherCondition
+    Weather: sunny
+  - ==: RegionCondition
+    Enabled: false
+    Name: RegionCondition
+    Option: inside
+    Region: none
+  - ==: PlaceholderDataCondition
+    Enabled: false
+    ExpectedResult: none
+    InputType: string
+    Name: PlaceholderDataCondition
+    Option: equals
+    Placeholder: none
+  - ==: BiomeCondition
+    Biome: PLAINS
+    Enabled: false
+    Name: BiomeCondition
+    Option: inside
+  - ==: TimeCondition
+    Enabled: false
+    Name: TimeCondition
+    Time: day
+  - ==: HealthCondition
+    Enabled: false
+    Health: 0.0
+    Name: HealthCondition
+    Option: above
+  - ==: ItemCondition
+    Enabled: false
+    ItemStack: null
+    Name: ItemCondition
+    Slot: null
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: COOKED_BEEF
+        amount: 2
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: COOKED_BEEF
+        amount: 4
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: COOKED_BEEF
+        amount: 8
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: GOLD_NUGGET
+        amount: 2
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: GOLD_NUGGET
+        amount: 5
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: GOLD_NUGGET
+        amount: 7
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: GOLD_NUGGET
+        amount: 9
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: RAW_COPPER
+        amount: 8
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: RAW_COPPER
+        amount: 4
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: COPPER_INGOT
+        amount: 8
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: COPPER_INGOT
+        amount: 4
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Small
+            Health Potion"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Charges:
+            "},{"italic":false,"color":"white","text":"3"},{"italic":false,"color":"gray","text":"/"},{"italic":false,"color":"white","text":"3"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Cooldown:
+            "},{"italic":false,"color":"white","text":"10 seconds"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Restores
+            "},{"italic":false,"color":"white","text":"5 HP"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+          - HIDE_ARMOR_TRIM
+          PublicBukkitValues:
+            prorpgitems:item_charges: '[I;3,3]'
+            prorpgitems:item_module: consumables
+            promccore:fogus_loren-item_charges: '§7Charges: §f3§7/§f3'
+            prorpgitems:item_level: 1i
+            prorpgitems:item_id: small_health_potion
+          custom-color:
+            ==: Color
+            ALPHA: 255
+            RED: 220
+            BLUE: 30
+            GREEN: 30
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Small
+            Health Potion"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Charges:
+            "},{"italic":false,"color":"white","text":"3"},{"italic":false,"color":"gray","text":"/"},{"italic":false,"color":"white","text":"3"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Cooldown:
+            "},{"italic":false,"color":"white","text":"10 seconds"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Restores
+            "},{"italic":false,"color":"white","text":"5 HP"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+          - HIDE_ARMOR_TRIM
+          PublicBukkitValues:
+            prorpgitems:item_charges: '[I;3,3]'
+            prorpgitems:item_module: consumables
+            promccore:fogus_loren-item_charges: '§7Charges: §f3§7/§f3'
+            prorpgitems:item_level: 1i
+            prorpgitems:item_id: small_health_potion
+          custom-color:
+            ==: Color
+            ALPHA: 255
+            RED: 220
+            BLUE: 30
+            GREEN: 30
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: SHULKER_SHELL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"Uncommon Inner Loot Crate"}'
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: '1'
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: OAK_LOG
+        amount: 32
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: OAK_LOG
+        amount: 16
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: RAW_COPPER
+        amount: 6
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: RAW_COPPER
+        amount: 12
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: GOLD_NUGGET
+        amount: 5
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: GOLD_NUGGET
+        amount: 10
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: COPPER_INGOT
+        amount: 12
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: COPPER_INGOT
+        amount: 6
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: SHULKER_SHELL
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"Common Inner Loot Crate"}'
+          Damage: 10
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: SHULKER_SHELL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"Common Inner Loot Crate"}'
+          Damage: 10
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Large Backpack"}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 04049c90-d3e9-4621-9caf-00000aaa1895
+            name: HeadDatabase
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUzNmFkOTc4ZTFjZTUwNTBmNDNiN2E2YjM4NTllYjQ5NDA2YjRmMTA0MzgwMmE3MTFjZGM4MGMwOTBjMzVkIn19fQ==
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: HEART_OF_THE_SEA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"Crypt Key"}'
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"Small Backpack"}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 04049c90-d3e9-4621-9caf-000000aaa874
+            name: HeadDatabase
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM1MWU1MDU5ODk4MzhlMjcyODdlN2FmYmM3Zjk3ZTc5NmNhYjVmMzU5OGE3NjE2MGMxMzFjOTQwZDBjNSJ9fX0=
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: COOKED_BEEF
+        amount: 12
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: COOKED_BEEF
+        amount: 6
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Small
+            Health Potion"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Charges:
+            "},{"italic":false,"color":"white","text":"3"},{"italic":false,"color":"gray","text":"/"},{"italic":false,"color":"white","text":"3"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Cooldown:
+            "},{"italic":false,"color":"white","text":"10 seconds"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Restores
+            "},{"italic":false,"color":"white","text":"5 HP"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+          - HIDE_ARMOR_TRIM
+          PublicBukkitValues:
+            prorpgitems:item_charges: '[I;3,3]'
+            prorpgitems:item_module: consumables
+            promccore:fogus_loren-item_charges: '§7Charges: §f3§7/§f3'
+            prorpgitems:item_level: 1i
+            prorpgitems:item_id: small_health_potion
+          custom-color:
+            ==: Color
+            ALPHA: 255
+            RED: 220
+            BLUE: 30
+            GREEN: 30
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: GOLD_NUGGET
+        amount: 15
+      Probability: 100.0
+    LowerNumberOfLoots: 1
+    Name: '2'
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  Name: maze_inner_uncommon
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 20
+  RoundDownTime: false

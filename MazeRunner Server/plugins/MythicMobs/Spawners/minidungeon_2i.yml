@@ -10,3 +10,5 @@ minidungeon_2i:
   MaxMobs: '1'
   Cooldown: 15
   Warmup: 0
+  CooldownTimer: 3
+  ActiveMobs: 1

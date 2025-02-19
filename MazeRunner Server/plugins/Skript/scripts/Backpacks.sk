@@ -1,0 +1,10 @@
+on right click:
+    if player's tool is player head:
+        if name of player's tool is "Small Backpack":
+            cancel event
+            execute player command "essentials:enderchest"
+on right click:
+    if player's tool is player head:
+        if name of player's tool is "Large Backpack":
+            cancel event
+            execute player command "minepacks:backpack"

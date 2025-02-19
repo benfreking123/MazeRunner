@@ -1,6 +1,6 @@
-on at 19:25:
-    execute console command "/closedoor 2"
+on at 18:30:
+    execute console command "/closedoor 5"
 
 on at 5am:
-    execute console command "/opendoor 2"
+    execute console command "/opendoor 5"
 

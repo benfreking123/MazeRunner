@@ -1,0 +1,22 @@
+maze_mob_7i:
+  MobName: RunnerInner
+  World: world
+  X: 27
+  Y: 64
+  Z: -345
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '2'
+  MaxMobs: 3
+  Radius: 10
+  Cooldown: 120
+  CheckForPlayers: true
+  ActivationRange: 35
+  LeashRange: 35
+  MobsPerSpawn: 2
+  Warmup: 0
+  ActiveMobs: 3
+  CooldownTimer: 4
+  Conditions:
+  - notinregion{r=underground}
+  - onground true

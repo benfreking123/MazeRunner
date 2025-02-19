@@ -25,20 +25,4 @@ jsCacheSize: 400
 # This can be seen as a global proximity condition for all doors.
 # Should not be lower than 100. 200 can be considered as best value.
 playerCheckRadius: 200
-doors:
-- ==: conditionalDoor
-  doorUID: 2
-  world: world
-  position:
-    ==: Vector
-    x: 0.0
-    y: 186.0
-    z: -203.0
-  enabled: true
-  invertOpen: false
-  evaluator: ''
-  evaluationType: AND
-  stayOpen: 0
-  conditionBag:
-    ==: bdoConditionBag
-    conditions: []
+doors: []

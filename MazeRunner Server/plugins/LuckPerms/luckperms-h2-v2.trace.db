@@ -46,3 +46,36 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Out of memory. [9
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
 	... 6 more
 Caused by: java.lang.OutOfMemoryError: Java heap space
+2025-02-19 00:38:50 database: flush
+org.h2.message.DbException: OutOfMemoryError
+	at org.h2.message.DbException.<clinit>(DbException.java:64)
+	at org.h2.message.TraceObject.<clinit>(TraceObject.java:108)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.file.H2ConnectionFactory.createConnection(H2ConnectionFactory.java:77)
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.file.FlatfileConnectionFactory.getConnection(FlatfileConnectionFactory.java:64)
+	at me.lucko.luckperms.common.storage.implementation.sql.connection.file.H2ConnectionFactory.getConnection(H2ConnectionFactory.java:43)
+	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.init(SqlStorage.java:165)
+	at me.lucko.luckperms.common.storage.Storage.init(Storage.java:114)
+	at me.lucko.luckperms.common.storage.StorageFactory.getInstance(StorageFactory.java:87)
+	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:201)
+	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.onEnable(LPBukkitBootstrap.java:175)
+	at LuckPerms-Bukkit-5.4.121.jar//me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin.onEnable(BukkitLoaderPlugin.java:50)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642)
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553)
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:274)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1100)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.sql.SQLException: OutOfMemoryError
+	at org.h2.message.DbException.<clinit>(DbException.java:62)
+	... 25 more
+Caused by: java.lang.OutOfMemoryError
+	... 26 more

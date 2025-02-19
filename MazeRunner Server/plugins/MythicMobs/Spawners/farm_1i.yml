@@ -15,5 +15,5 @@ farm_1i:
   LeashRange: 32
   MobsPerSpawn: 2
   Warmup: 0
-  ActiveMobs: 1
+  ActiveMobs: 4
   CooldownTimer: 1

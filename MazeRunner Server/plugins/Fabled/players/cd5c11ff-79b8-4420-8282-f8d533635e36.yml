@@ -1,7 +1,7 @@
 limit: 3
-active: 1
-health: 69.0
-mana: 71.8272
+active: 3
+health: 17.0
+mana: 28.29
 accounts: 
   acc1: 
     classes: 
@@ -41,4 +41,28 @@ accounts:
       3: 'Energy Bolt'
       4: 'Strike'
     hunger: 0.0
+    persistent: {}
+  acc3: 
+    classes: 
+      baseliner: 
+        level: 4
+        points: 4
+        exp: 45.0
+    skills: 
+      Dart: 
+        level: 0
+      'Energy Bolt': 
+        level: 0
+      Strike: 
+        level: 0
+      Bomb: 
+        level: 0
+      Dash: 
+        level: 0
+    binds: {}
+    'attrib-points': 3
+    attribs: {}
+    attrstages: {}
+    'text-layout': {}
+    hunger: 1.0
     persistent: {}

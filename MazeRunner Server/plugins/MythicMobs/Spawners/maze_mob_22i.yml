@@ -1,0 +1,22 @@
+maze_mob_22i:
+  MobName: SkeletonUnderground
+  World: world
+  X: 108
+  Y: 58
+  Z: -304
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '4'
+  MaxMobs: 3
+  Radius: 50
+  Cooldown: 15
+  CheckForPlayers: true
+  ActivationRange: 60
+  LeashRange: 100
+  MobsPerSpawn: 2
+  Warmup: 0
+  ActiveMobs: 3
+  CooldownTimer: 1
+  Conditions:
+  - region{r=underground} true
+  - onground true

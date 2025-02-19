@@ -258,6 +258,8 @@ acc:
   sender: 'PLAYER_ONLY'
   enabled: 'true'
   cooldown: 0
+  messages: 
+    'account-changed': '&2Your account has been changed'
 ap: 
   name: 'ap'
   description: 'Gives attrib points'

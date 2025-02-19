@@ -6,6 +6,16 @@ copper_mine_1i_2:
   Z: -418
   Yaw: 0.0
   Pitch: 0.0
-  MobLevel: '1'
-  Cooldown: 0
+  MobLevel: '2'
+  MaxMobs: 3
+  Radius: 10
+  Cooldown: 5
+  CheckForPlayers: true
+  ActivationRange: 25
+  LeashRange: 25
+  MobsPerSpawn: 2
   Warmup: 0
+  ActiveMobs: 3
+  CooldownTimer: 1
+  Conditions:
+  - notinregion{r=underground}

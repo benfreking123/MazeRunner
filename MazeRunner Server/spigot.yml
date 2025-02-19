@@ -46,7 +46,7 @@ advancements:
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
-    mob-spawn-range: 8
+    mob-spawn-range: 30
     item-despawn-rate: 6000
     simulation-distance: default
     merge-radius:

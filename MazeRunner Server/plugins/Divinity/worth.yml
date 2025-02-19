@@ -1,30 +1,23 @@
 worth-calculator:
   by-damage-types:
     _vanilla_generic: 4
-    magical: 4
     fire: 4
-    poison: 4
-    physical: 4
     energy: 4
     lightning: 4
-    ice: 4
+    chaos: 4
+    melee: 4
+    projectile: 4
+    ice: 9
     posion: 4
-    chaos: 4
-    melee: 4
-    projectile: 4
   by-defense-types:
-    physical: 4
-    magical: 4
     fire: 4
     poison: 4
-    water: 4
-    wind: 4
     lightning: 4
-    ice: 4
     energy: 4
     chaos: 4
     melee: 4
     projectile: 4
+    ice: 3
   by-socket-types:
     GEM:
       common: 4
@@ -242,3 +235,31 @@ worth-calculator:
     money:
       money:
         '1': 0
+  by-item-stats:
+    AOE_DAMAGE: 8
+    PVP_DAMAGE: 7
+    PVE_DAMAGE: 2
+    DODGE_RATE: 9
+    ACCURACY_RATE: 2
+    BLOCK_RATE: 9
+    BLOCK_DAMAGE: 8
+    LOOT_RATE: 3
+    BURN_RATE: 4
+    PVP_DEFENSE: 9
+    PVE_DEFENSE: 11
+    CRITICAL_RATE: 3
+    CRITICAL_DAMAGE: 11
+    DURABILITY: 8
+    MOVEMENT_SPEED: 11
+    PENETRATION: 9
+    BASE_ATTACK_SPEED: 11
+    ATTACK_SPEED: 2
+    VAMPIRISM: 3
+    MAX_HEALTH: 8
+    BLEED_RATE: 11
+    DISARM_RATE: 3
+    SALE_PRICE: 11
+    THORNMAIL: 9
+    HEALTH_REGEN: 2
+    MANA_REGEN: 3
+    ARMOR_TOUGHNESS: 7

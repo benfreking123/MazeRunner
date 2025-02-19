@@ -1,0 +1,23 @@
+maze_mob_9i:
+  MobName: DirtmanInner
+  World: world
+  X: 168
+  Y: 64
+  Z: -294
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '3'
+  MaxMobs: 3
+  Radius: 15
+  Cooldown: 10
+  CheckForPlayers: true
+  ActivationRange: 35
+  LeashRange: 35
+  MobsPerSpawn: 2
+  Warmup: 0
+  ActiveMobs: 3
+  CooldownTimer: 1
+  Conditions:
+  - notinregion{r=theforest}
+  - notinregion{r=underground}
+  - onground true

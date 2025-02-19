@@ -9,30 +9,30 @@ socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
-baltop-exempt: false
+baltop-exempt: true
 timestamps:
   lastteleport: 1739391165313
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1739758522368
-  login: 1739751693777
-money: '94508.13'
+  logout: 1739951780693
+  login: 1739951667614
+money: '91833.13'
 last-account-name: Bishop4302
 logoutlocation:
   world: 73aa93cb-58ed-4e14-b40d-b87898d40581
   world-name: world
-  x: 45.70609549194752
-  y: 72.74854547898923
-  z: -254.62540043216413
-  yaw: 159.3485107421875
-  pitch: 38.84993362426758
+  x: 126.90830544510163
+  y: 181.1624914814684
+  z: -445.5668514183486
+  yaw: -122.24162292480469
+  pitch: 37.3505973815918
 lastlocation:
   world: 73aa93cb-58ed-4e14-b40d-b87898d40581
   world-name: world
-  x: 155.12574092704415
-  y: 82.49120456007809
-  z: -267.45044321816476
-  yaw: -179.35093688964844
-  pitch: 24.600360870361328
+  x: 54.367376350615665
+  y: 162.29611562587255
+  z: -307.44275166509925
+  yaw: 8.9833984375
+  pitch: 43.649383544921875

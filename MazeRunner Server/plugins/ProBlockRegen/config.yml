@@ -8,10 +8,13 @@ grief-defender: true
 
 disabled-regions:
   # If set to true, block regen will only work in these regions
-  whitelist: false
+  whitelist: true
   list:
-    - region1
-
+    - theforest
+    - thefield
+    - coppermine
+    - stonefield
+    - maze
 disabled-worlds:
   # If set to true, block regen will only work in these worlds
   whitelist: false
@@ -63,7 +66,6 @@ entries:
     as: CONSOLE
     cmd: say {player}
     chance: 100.0
-  age: 7
 - materials:
   - OAK_WOOD
   break-material: STRIPPED_OAK_LOG
@@ -76,4 +78,28 @@ entries:
     as: CONSOLE
     cmd: say {player}
     chance: 100.0
-  age: 7
+- materials:
+  - OAK_LEAVES
+  break-material: AIR
+  regen-delay: 600
+  rewards:
+    - "exp:5"
+  cancel-drop: true
+  command:
+  - delay: 0
+    as: CONSOLE
+    cmd: say {player}
+    chance: 100.0
+
+- materials:
+  - MELON
+  break-material: AIR
+  regen-delay: 600
+  rewards:
+    - "exp:5"
+  cancel-drop: false
+  command:
+  - delay: 0
+    as: CONSOLE
+    cmd: say {player}
+    chance: 100.0

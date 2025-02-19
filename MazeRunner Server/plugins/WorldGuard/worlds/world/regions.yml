@@ -10,13 +10,11 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    thefield:
-        min: {x: 104, y: 64, z: -314}
-        max: {x: 132, y: 93, z: -264}
+    mazeentrance:
+        min: {x: -16, y: -64, z: -300}
+        max: {x: 16, y: 1023, z: -203}
         members: {}
-        flags:
-            console-command-on-entry: ['/title %username% title {"text":"The Field","color":"gold","bold":true}']
-            notify-enter: true
+        flags: {mob-spawning: deny}
         owners: {}
         type: cuboid
         priority: 0
@@ -27,16 +25,10 @@ regions:
         flags:
             console-command-on-entry: ['/title %username% title {"text":"Sanctuary","color":"gold","bold":true}']
             build: allow
+            mob-damage: deny
             block-break: allow
+            pvp: deny
             mob-spawning: deny
-        owners: {}
-        type: cuboid
-        priority: 0
-    spawn:
-        min: {x: -26, y: -64, z: -26}
-        max: {x: 25, y: 1023, z: 25}
-        members: {}
-        flags: {build: deny, block-break: deny}
         owners: {}
         type: cuboid
         priority: 0
@@ -45,6 +37,65 @@ regions:
         max: {x: 47, y: 164, z: -260}
         members: {}
         flags: {entry: allow}
+        owners: {}
+        type: cuboid
+        priority: 0
+    maze:
+        members: {}
+        flags: {}
+        owners: {}
+        type: poly2d
+        priority: 0
+        max-y: 183
+        min-y: 65
+        points:
+        - {x: 591, z: 132}
+        - {x: 201, z: 198}
+        - {x: 201, z: -201}
+        - {x: -129, z: -201}
+        - {x: -112, z: -728}
+    stonefield:
+        min: {x: 53, y: 62, z: -315}
+        max: {x: 69, y: 79, z: -281}
+        members: {}
+        flags:
+            console-command-on-entry: ['/title %username% title {"text":"Stone Field","color":"gold","bold":true}']
+        owners: {}
+        type: cuboid
+        priority: 0
+    coppermine:
+        min: {x: 36, y: 4, z: -432}
+        max: {x: 96, y: 82, z: -402}
+        members: {}
+        flags:
+            console-command-on-entry: ['/title %username% title {"text":"Copper Mine","color":"gold","bold":true}']
+        owners: {}
+        type: cuboid
+        priority: 0
+    thefield:
+        min: {x: 104, y: 64, z: -314}
+        max: {x: 132, y: 93, z: -264}
+        members: {}
+        flags:
+            console-command-on-entry: ['/title %username% title {"text":"The Field","color":"gold","bold":true}']
+            block-trampling: deny
+            notify-enter: true
+        owners: {}
+        type: cuboid
+        priority: 0
+    spawn:
+        min: {x: -201, y: -64, z: -201}
+        max: {x: 174, y: 1023, z: -139}
+        members: {}
+        flags: {build: deny, block-break: deny, block-place: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    underground:
+        min: {x: 67, y: 42, z: -425}
+        max: {x: 245, y: 61, z: -262}
+        members: {}
+        flags: {}
         owners: {}
         type: cuboid
         priority: 0
@@ -62,24 +113,6 @@ regions:
         members: {}
         flags:
             console-command-on-entry: ['/title %username% title {"text":"The Crypt","color":"gold","bold":true}']
-        owners: {}
-        type: cuboid
-        priority: 0
-    stonefield:
-        min: {x: 53, y: 62, z: -315}
-        max: {x: 69, y: 79, z: -281}
-        members: {}
-        flags:
-            console-command-on-entry: ['/title %username% title {"text":"Stone Field","color":"gold","bold":true}']
-        owners: {}
-        type: cuboid
-        priority: 0
-    coppermine:
-        min: {x: 36, y: 4, z: -432}
-        max: {x: 96, y: 82, z: -402}
-        members: {}
-        flags:
-            console-command-on-entry: ['/title %username% title {"text":"Copper Mine","color":"gold","bold":true}']
         owners: {}
         type: cuboid
         priority: 0
@@ -107,7 +140,7 @@ regions:
         - {x: 314, z: -314}
     __global__:
         members: {}
-        flags: {build: deny, block-break: deny}
+        flags: {build: deny, block-break: deny, pistons: allow}
         owners: {}
         type: global
         priority: 0
