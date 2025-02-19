@@ -1,0 +1,45 @@
+name: Sync MazeRunner Wiki
+
+# This workflow will run every hour and can also be triggered manually.
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out your main repository.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Clone or update the MazeRunner Wiki repository.
+      - name: Get MazeRunner Wiki
+        run: |
+          if [ -d "maze_wiki" ]; then
+            echo "Updating wiki clone..."
+            cd maze_wiki && git pull
+          else
+            echo "Cloning MazeRunner Wiki..."
+            git clone https://github.com/benfreking123/MazeRunner.wiki.git maze_wiki
+          fi
+
+      # Step 3: Copy the wiki files into a folder named "wiki" in your main repository.
+      - name: Copy Wiki Files
+        run: |
+          mkdir -p wiki
+          rsync -av --delete maze_wiki/ wiki/
+
+      # Step 4: If there are changes in the wiki folder, commit and push them.
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add wiki
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Sync updated wiki content"
+            git push
+          else
+            echo "No changes to commit."
+          fi
