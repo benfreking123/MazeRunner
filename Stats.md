@@ -1,0 +1,11 @@
+## Current Stats
+- Dexterity [Projectile Dmg, Range]
+- Intelligence [Skill Dmg, Mana Regen]
+- Strength [Melee Dmg, Health]
+- Vitality [Armor, Hunger, Hunger-Heal]
+- Agility [Move-speed, armor-toughness, attack-speed]
+- Wisdom [mana, cooldown]
+- Projectile Damage (projectile_damage)
+- Cooldown
+- Mana
+- Mana Modifier (mana_mod)
